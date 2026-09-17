@@ -1,0 +1,33 @@
+def TC_LoginProfile(number):
+    return testCases_Login_Profile[number-1]
+
+testCases_Login_Profile = [
+    ['Check that user is able to open Sign In Page'],
+    ['Verify the UI/UX of JioSignage page.'],
+    ['Verify user able to see the JioSignage logo in JioSignage login page.'],
+    ['Check user able to enter any text in Email address field.'],
+    ['Check user able to enter the text in Password field.'],
+    ['Verify user is able to click password show icon in JioSignage login page.'],
+    ['Verify user able to select the remember me option in JioSignage page.'],
+    ['Verify user able to create new password by using password forgot option.'],
+    ['Verify user able to login using valid credentials in JioSignage login page.'],
+    ['Verify user able to select the submit OTP in Enter OTP page.'],
+    ['Verify user able to see & click on resend OTP in enter OTP page.'],
+    ['Verify user able to click back button to redirect previous page from OTP page.'],
+    ['Verify able to regenerate OTP '],
+    ['check user able to select the view profile option.'],
+    ['check user able to update the user name.'],
+    ['check user able to click "save" and "cancel "option" from user name OSD.'],
+    ['check user able to update the phone number.'],
+    ['check user able to click "save" and "cancel "option" from new phone number OSD.'],
+    ['verify user able to close the new phone number OSD by clicking "X"'],
+    ['check user able to update the password.'],
+    ['Check user able to update the password with two different password in two different field and observe.'],
+    ['check user able to click "save" and "cancel "option" from new password OSD.'],
+    ['verify user able to close the new passwordr OSD by clicking "X"'],
+    ['Verify user able to select the view service plan from profile.'],
+    ['Verify user able to select the help option from profile icon.'],
+    ['Verify user able to select the logout option from profile icon.'],
+    ['check user able to update the user name.'],
+    ['check user able to update the phone number.'],
+]

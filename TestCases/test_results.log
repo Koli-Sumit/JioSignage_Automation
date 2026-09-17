@@ -1,0 +1,2233 @@
+==== SignageLogin Tests ====
+============================= test session starts =============================
+platform win32 -- Python 3.11.4, pytest-8.4.0, pluggy-1.5.0
+rootdir: C:\_Scripts\JioSignage_Client\21July\JioSignage_Master_v.3.0\TestCases
+configfile: pytest.ini
+plugins: allure-pytest-2.13.5, anyio-4.9.0, check-2.5.1, html-4.1.1, json-report-1.5.0, metadata-3.1.1, repeat-0.9.3, rerunfailures-15.1
+collected 0 items / 1 error
+
+=================================== ERRORS ====================================
+______________________ ERROR collecting signageLogin.py _______________________
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\_pytest\assertion\rewrite.py:186: in exec_module
+    exec(co, module.__dict__)
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\signageLogin.py:110: in <module>
+    login_and_save_cookies(
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\signageLogin.py:72: in login_and_save_cookies
+    element = WebDriverWait(driver, 60).until(
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py:137: in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\expected_conditions.py:224: in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:898: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+E   from disconnected: not connected to DevTools
+E     (Session info: chrome=136.0.7103.114)
+E   Stacktrace:
+E   	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E   	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E   	(No symbol) [0x00007FF70C678F9A]
+E   	(No symbol) [0x00007FF70C664E35]
+E   	(No symbol) [0x00007FF70C689DB4]
+E   	(No symbol) [0x00007FF70C6FEE75]
+E   	(No symbol) [0x00007FF70C71ECC2]
+E   	(No symbol) [0x00007FF70C6F7153]
+E   	(No symbol) [0x00007FF70C6C0421]
+E   	(No symbol) [0x00007FF70C6C11B3]
+E   	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E   	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E   	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E   	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E   	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E   	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E   	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E   	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E   	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E   	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+=========================== short test summary info ===========================
+ERROR signageLogin.py - selenium.common.exceptions.InvalidSessionIdException:...
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+============================== 1 error in 8.74s ===============================
+
+==== SMOKE Tests ====
+============================= test session starts =============================
+platform win32 -- Python 3.11.4, pytest-8.4.0, pluggy-1.5.0 -- C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.4', 'Platform': 'Windows-10-10.0.22631-SP0', 'Packages': {'pytest': '8.4.0', 'pluggy': '1.5.0'}, 'Plugins': {'allure-pytest': '2.13.5', 'anyio': '4.9.0', 'check': '2.5.1', 'html': '4.1.1', 'json-report': '1.5.0', 'metadata': '3.1.1', 'repeat': '0.9.3', 'rerunfailures': '15.1'}, 'JAVA_HOME': 'C:\\Program Files\\Java\\jdk-17'}
+rootdir: C:\_Scripts\JioSignage_Client\21July\JioSignage_Master_v.3.0\TestCases
+configfile: pytest.ini
+plugins: allure-pytest-2.13.5, anyio-4.9.0, check-2.5.1, html-4.1.1, json-report-1.5.0, metadata-3.1.1, repeat-0.9.3, rerunfailures-15.1
+collecting ... collected 642 items / 603 deselected / 39 selected
+
+test_Contents.py::TestContents::test_addNewContent_BlankSlide RERUN      [  2%]
+test_Contents.py::TestContents::test_addNewContent_BlankSlide FAILED     [  2%]
+test_Contents.py::TestContents::test_addNewContent_BlankSlide ERROR      [  2%]
+test_Contents.py::TestContents::test_addNewContent_TemplateForPlayingVideo RERUN [  5%]
+test_Contents.py::TestContents::test_addNewContent_TemplateForPlayingVideo ERROR [  5%]
+test_Contents.py::TestContents::test_DeleteCompletelyContentFromTrashFolder RERUN [  7%]
+test_Contents.py::TestContents::test_DeleteCompletelyContentFromTrashFolder ERROR [  7%]
+test_Contents.py::TestContents::test_editContent_SaveButton RERUN        [ 10%]
+test_Contents.py::TestContents::test_editContent_SaveButton ERROR        [ 10%]
+test_Contents.py::TestContents::test_editSlidePage_AddObject_AddImage RERUN [ 12%]
+test_Contents.py::TestContents::test_editSlidePage_AddObject_AddImage ERROR [ 12%]
+test_Contents.py::TestContents::test_UsageCount RERUN                    [ 15%]
+test_Contents.py::TestContents::test_UsageCount ERROR                    [ 15%]
+test_Contents.py::TestContents::test_LayoutDetails RERUN                 [ 17%]
+test_Contents.py::TestContents::test_LayoutDetails ERROR                 [ 17%]
+test_Contents.py::TestContents::test_LayoutDetails ERROR                 [ 17%]
+test_Dashboard.py::TestDashboard::test_verifyImageUpload RERUN           [ 20%]
+test_Dashboard.py::TestDashboard::test_verifyImageUpload PASSED          [ 20%]
+test_Dashboard.py::TestDashboard::test_verifyVideoUpload PASSED          [ 23%]
+test_Dashboard.py::TestDashboard::test_DisplayCountAfterAdded PASSED     [ 25%]
+test_DeliveryManagement.py::TestDeliveryManagement::test_online_offline_options PASSED [ 28%]
+test_DeliveryManagement.py::TestDeliveryManagement::test_Offline_Display_DMPage PASSED [ 30%]
+test_Displays.py::TestDisplays::test_DisplayDetailsPage PASSED           [ 33%]
+test_LoginAndProfile.py::TestLoginAndProfile::test_EmailTextbox PASSED   [ 35%]
+test_LoginAndProfile.py::TestLoginAndProfile::test_PasswordTextbox PASSED [ 38%]
+test_LoginAndProfile.py::TestLoginAndProfile::test_PasswordTextbox_showPasswordBtn PASSED [ 41%]
+test_LoginAndProfile.py::TestLoginAndProfile::test_LoginWithValidCredential PASSED [ 43%]
+test_LoginAndProfile.py::TestLoginAndProfile::test_viewProfile PASSED    [ 46%]
+test_Materials.py::TestMaterials::test_addNewMaterial_JPEG PASSED        [ 48%]
+test_Materials.py::TestMaterials::test_addNewMaterial_MP4 PASSED         [ 51%]
+test_Materials.py::TestMaterials::test_addNewMaterial_PDF PASSED         [ 53%]
+test_Materials.py::TestMaterials::test_Material_filter_image_video_audio_doc PASSED [ 56%]
+test_Materials.py::TestMaterials::test_UploadMedia PASSED                [ 58%]
+test_Materials.py::TestMaterials::test_Trash_Restore_PermanentlyDel PASSED [ 61%]
+test_Materials.py::TestMaterials::test_CreateFolderAndUploadMedia PASSED [ 64%]
+test_Materials.py::TestMaterials::test_VerifyMedialogs PASSED            [ 66%]
+test_Playlists.py::TestPlaylists::test_verifyCreateNewPlaylist PASSED    [ 69%]
+test_Playlists.py::TestPlaylists::test_verifyRenamePlaylist PASSED       [ 71%]
+test_Schedules.py::TestSchedules::test_verifyAddSchedule PASSED          [ 74%]
+test_Schedules.py::TestSchedules::test_verifyDragDrop PASSED             [ 76%]
+test_Schedules.py::TestSchedules::test_verifyAddTrigger RERUN            [ 79%]
+test_Schedules.py::TestSchedules::test_verifyAddTrigger FAILED           [ 79%]
+test_UserAccess.py::TestUserAccess::test_verify_AddUserWithExistingName PASSED [ 82%]
+test_UserAccess.py::TestUserAccess::test_AddNewBaseAccount PASSED        [ 84%]
+test_UserAccess.py::TestUserAccess::test_EditBaseAccount PASSED          [ 87%]
+test_UserAccess.py::TestUserAccess::test_deleteAccountFunction PASSED    [ 89%]
+test_UserAccess.py::TestUserAccess::test_deleteAccountFunction_restoreFromTrashPage RERUN [ 92%]
+test_UserAccess.py::TestUserAccess::test_deleteAccountFunction_restoreFromTrashPage ERROR [ 92%]
+test_UserAccess.py::TestUserAccess::test_UserAccess_Search RERUN         [ 94%]
+test_UserAccess.py::TestUserAccess::test_UserAccess_Search ERROR         [ 94%]
+test_UserAccess.py::TestUserAccess::test_HeadToBase_and_BaseToHead RERUN [ 97%]
+test_UserAccess.py::TestUserAccess::test_HeadToBase_and_BaseToHead ERROR [ 97%]
+test_UserAccess.py::TestUserAccess::test_SearchBase RERUN                [100%]
+test_UserAccess.py::TestUserAccess::test_SearchBase ERROR                [100%]
+test_UserAccess.py::TestUserAccess::test_SearchBase ERROR                [100%]
+
+=================================== ERRORS ====================================
+_______ ERROR at teardown of TestContents.test_addNewContent_BlankSlide _______
+
+self = <allure_commons._allure.fixture object at 0x0000021EC6BE0950>, args = ()
+kwargs = {}
+
+    def __call__(self, *args, **kwargs):
+        self.parameters = func_parameters(self._fixture_function, *args, **kwargs)
+    
+        with self:
+>           return self._fixture_function(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\allure_commons\_allure.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\conftest.py:165: in log_on_failure
+    allure.attach(driver.get_screenshot_as_png(), name="screenshot", attachment_type=AttachmentType.PNG)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:1003: in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:1013: in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC6169690>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=136.0.7103.114)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C651B41]
+E       	(No symbol) [0x00007FF70C6FEC2E]
+E       	(No symbol) [0x00007FF70C71ECC2]
+E       	(No symbol) [0x00007FF70C6F7153]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchWindowException
+------------------------------ Captured log call ------------------------------
+INFO     TestCases.test_Contents:test_Contents.py:190 TC['Check able to create content using a blank template']
+__ ERROR at setup of TestContents.test_addNewContent_TemplateForPlayingVideo __
+
+self = <TestCases.test_Contents.TestContents object at 0x0000021EA6A69890>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_Contents.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC6169690>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=136.0.7103.114)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C651B41]
+E       	(No symbol) [0x00007FF70C6FEC2E]
+E       	(No symbol) [0x00007FF70C71ECC2]
+E       	(No symbol) [0x00007FF70C6F7153]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchWindowException
+_ ERROR at setup of TestContents.test_DeleteCompletelyContentFromTrashFolder __
+
+self = <TestCases.test_Contents.TestContents object at 0x0000021EA6A6B750>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_Contents.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC6169690>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=136.0.7103.114)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C651B41]
+E       	(No symbol) [0x00007FF70C6FEC2E]
+E       	(No symbol) [0x00007FF70C71ECC2]
+E       	(No symbol) [0x00007FF70C6F7153]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchWindowException
+_________ ERROR at setup of TestContents.test_editContent_SaveButton __________
+
+self = <TestCases.test_Contents.TestContents object at 0x0000021EA6961850>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_Contents.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC6169690>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=136.0.7103.114)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C651B41]
+E       	(No symbol) [0x00007FF70C6FEC2E]
+E       	(No symbol) [0x00007FF70C71ECC2]
+E       	(No symbol) [0x00007FF70C6F7153]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchWindowException
+____ ERROR at setup of TestContents.test_editSlidePage_AddObject_AddImage _____
+
+self = <TestCases.test_Contents.TestContents object at 0x0000021EA6AAE950>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_Contents.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC6169690>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=136.0.7103.114)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C651B41]
+E       	(No symbol) [0x00007FF70C6FEC2E]
+E       	(No symbol) [0x00007FF70C71ECC2]
+E       	(No symbol) [0x00007FF70C6F7153]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchWindowException
+_______________ ERROR at setup of TestContents.test_UsageCount ________________
+
+self = <TestCases.test_Contents.TestContents object at 0x0000021EA6ABBD50>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_Contents.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC6169690>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=136.0.7103.114)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C651B41]
+E       	(No symbol) [0x00007FF70C6FEC2E]
+E       	(No symbol) [0x00007FF70C71ECC2]
+E       	(No symbol) [0x00007FF70C6F7153]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchWindowException
+______________ ERROR at setup of TestContents.test_LayoutDetails ______________
+
+self = <TestCases.test_Contents.TestContents object at 0x0000021EA6AC0390>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_Contents.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC6169690>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=136.0.7103.114)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C651B41]
+E       	(No symbol) [0x00007FF70C6FEC2E]
+E       	(No symbol) [0x00007FF70C71ECC2]
+E       	(No symbol) [0x00007FF70C6F7153]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchWindowException
+____________ ERROR at teardown of TestContents.test_LayoutDetails _____________
+
+self = <allure_commons._allure.fixture object at 0x0000021EA5FAC110>, args = ()
+kwargs = {}
+
+    def __call__(self, *args, **kwargs):
+        self.parameters = func_parameters(self._fixture_function, *args, **kwargs)
+    
+        with self:
+>           return self._fixture_function(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\allure_commons\_allure.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\conftest.py:155: in setup
+    driver.close()
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:579: in close
+    self.execute(Command.CLOSE)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC6169690>
+response = {'status': 404, 'value': '{"value":{"error":"invalid session id","message":"invalid session id: session deleted as the...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+E       from disconnected: not connected to DevTools
+E         (Session info: chrome=136.0.7103.114)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C66351E]
+E       	(No symbol) [0x00007FF70C66483F]
+E       	(No symbol) [0x00007FF70C6799EF]
+E       	(No symbol) [0x00007FF70C65152D]
+E       	(No symbol) [0x00007FF70C708431]
+E       	(No symbol) [0x00007FF70C6F7340]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: InvalidSessionIdException
+_ ERROR at setup of TestUserAccess.test_deleteAccountFunction_restoreFromTrashPage _
+
+self = <TestCases.test_UserAccess.TestUserAccess object at 0x0000021EA6D036D0>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_UserAccess.py:50: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC705FCD0>
+response = {'status': 404, 'value': '{"value":{"error":"invalid session id","message":"invalid session id","stacktrace":"\\tGetHa...96FC8+4180040]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678DCC]
+E       	(No symbol) [0x00007FF70C6BF54F]
+E       	(No symbol) [0x00007FF70C6F7242]
+E       	(No symbol) [0x00007FF70C6F1C63]
+E       	(No symbol) [0x00007FF70C6F0D29]
+E       	(No symbol) [0x00007FF70C645A55]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	(No symbol) [0x00007FF70C644AC8]
+E       	GetHandleVerifier [0x00007FF70CC96FC8+4180040]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: InvalidSessionIdException
+----------------------------- Captured log setup ------------------------------
+INFO     Pages.BasePage:BasePage.py:391 Element S_CURRENT_ACCOUNT_TYPE_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:166 Text of Element S_CURRENT_ACCOUNT_TYPE_XPATH is Head User
+INFO     Pages.BasePage:BasePage.py:488 Browser Refreshed
+INFO     Pages.BasePage:BasePage.py:391 Element S_CURRENT_ACCOUNT_TYPE_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:166 Text of Element S_CURRENT_ACCOUNT_TYPE_XPATH is Head User
+------------------------------ Captured log call ------------------------------
+INFO     TestCases.test_UserAccess:test_UserAccess.py:867 TC['Verify Trash of Base Management']
+INFO     Pages.BasePage:BasePage.py:552 Hover on element MENU_UA_XPATH and click on element SUBMENU_BM_XPATH
+___________ ERROR at setup of TestUserAccess.test_UserAccess_Search ___________
+
+self = <TestCases.test_UserAccess.TestUserAccess object at 0x0000021EA6D6ABD0>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_UserAccess.py:50: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC705FCD0>
+response = {'status': 404, 'value': '{"value":{"error":"invalid session id","message":"invalid session id","stacktrace":"\\tGetHa...96FC8+4180040]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678DCC]
+E       	(No symbol) [0x00007FF70C6BF54F]
+E       	(No symbol) [0x00007FF70C6F7242]
+E       	(No symbol) [0x00007FF70C6F1C63]
+E       	(No symbol) [0x00007FF70C6F0D29]
+E       	(No symbol) [0x00007FF70C645A55]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	(No symbol) [0x00007FF70C644AC8]
+E       	GetHandleVerifier [0x00007FF70CC96FC8+4180040]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: InvalidSessionIdException
+_______ ERROR at setup of TestUserAccess.test_HeadToBase_and_BaseToHead _______
+
+self = <TestCases.test_UserAccess.TestUserAccess object at 0x0000021EA6D71790>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_UserAccess.py:50: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC705FCD0>
+response = {'status': 404, 'value': '{"value":{"error":"invalid session id","message":"invalid session id","stacktrace":"\\tGetHa...96FC8+4180040]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678DCC]
+E       	(No symbol) [0x00007FF70C6BF54F]
+E       	(No symbol) [0x00007FF70C6F7242]
+E       	(No symbol) [0x00007FF70C6F1C63]
+E       	(No symbol) [0x00007FF70C6F0D29]
+E       	(No symbol) [0x00007FF70C645A55]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	(No symbol) [0x00007FF70C644AC8]
+E       	GetHandleVerifier [0x00007FF70CC96FC8+4180040]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: InvalidSessionIdException
+______________ ERROR at setup of TestUserAccess.test_SearchBase _______________
+
+self = <TestCases.test_UserAccess.TestUserAccess object at 0x0000021EA6D71D90>
+
+    @pytest.fixture(autouse=True)
+    def test_refreshBrowser(self):
+>       self.driver.refresh()
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_UserAccess.py:50: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:700: in refresh
+    self.execute(Command.REFRESH)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC705FCD0>
+response = {'status': 404, 'value': '{"value":{"error":"invalid session id","message":"invalid session id","stacktrace":"\\tGetHa...96FC8+4180040]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678DCC]
+E       	(No symbol) [0x00007FF70C6BF54F]
+E       	(No symbol) [0x00007FF70C6F7242]
+E       	(No symbol) [0x00007FF70C6F1C63]
+E       	(No symbol) [0x00007FF70C6F0D29]
+E       	(No symbol) [0x00007FF70C645A55]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	(No symbol) [0x00007FF70C644AC8]
+E       	GetHandleVerifier [0x00007FF70CC96FC8+4180040]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: InvalidSessionIdException
+_____________ ERROR at teardown of TestUserAccess.test_SearchBase _____________
+
+self = <allure_commons._allure.fixture object at 0x0000021EC6CE18D0>, args = ()
+kwargs = {}
+
+    def __call__(self, *args, **kwargs):
+        self.parameters = func_parameters(self._fixture_function, *args, **kwargs)
+    
+        with self:
+>           return self._fixture_function(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\allure_commons\_allure.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\conftest.py:155: in setup
+    driver.close()
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:579: in close
+    self.execute(Command.CLOSE)
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC705FCD0>
+response = {'status': 404, 'value': '{"value":{"error":"invalid session id","message":"invalid session id","stacktrace":"\\tGetHa...96FC8+4180040]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678DCC]
+E       	(No symbol) [0x00007FF70C6BF54F]
+E       	(No symbol) [0x00007FF70C6F7242]
+E       	(No symbol) [0x00007FF70C6F1C63]
+E       	(No symbol) [0x00007FF70C6F0D29]
+E       	(No symbol) [0x00007FF70C645A55]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	(No symbol) [0x00007FF70C644AC8]
+E       	GetHandleVerifier [0x00007FF70CC96FC8+4180040]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: InvalidSessionIdException
+================================== FAILURES ===================================
+_________________ TestContents.test_addNewContent_BlankSlide __________________
+
+self = <TestCases.test_Contents.TestContents object at 0x0000021EA6A6A7D0>
+
+    @pytest.mark.FOCUSED
+    @pytest.mark.SMOKE
+    @pytest.mark.SANITY
+    def test_addNewContent_BlankSlide(self):
+        with check:
+            log.logger.info("TC" + str(TC_Content(9)))
+            Home = HomePage(self.driver)
+>           ele = Home.gotoContentContents().stayOnBaseAccount().gotoContentContents_Page().addNewContent()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_Contents.py:192: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\Pages\HomePage.py:97: in gotoContentContents
+    self.driver.get("https://sit2.jiosignage.jio.com/v2/contents")
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:454: in get
+    self.execute(Command.GET, {"url": url})
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC6169690>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=136.0.7103.114)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C651B41]
+E       	(No symbol) [0x00007FF70C6FEC2E]
+E       	(No symbol) [0x00007FF70C71ECC2]
+E       	(No symbol) [0x00007FF70C6F7153]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchWindowException
+------------------------------ Captured log call ------------------------------
+INFO     TestCases.test_Contents:test_Contents.py:190 TC['Check able to create content using a blank template']
+_____________________ TestSchedules.test_verifyAddTrigger _____________________
+
+self = <TestCases.test_Schedules.TestSchedules object at 0x0000021EA6CBD2D0>
+
+    @pytest.mark.FOCUSED
+    @pytest.mark.SMOKE
+    def test_verifyAddTrigger(self):
+        log.logger.info(str(TC_Schedules(38)))
+        homepage = HomePage(self.driver)
+        homepage.gotoSchedules().switchToHead()
+>       assert "Add Time Trigger" == homepage.gotoContentSchedules().verifyAddTrigger()
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+..\..\..\02July\JioSignage_Master_v.2.7\TestCases\test_Schedules.py:367: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\Pages\Schedules.py:310: in verifyAddTrigger
+    self.click("S_ADD_TRIGGER_BTN_XPATH")
+..\Pages\BasePage.py:229: in click
+    element = self.driver.find_element(By.XPATH, configReader.getLocator("locators", locator))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:898: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py:429: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000021EC729ADD0>
+response = {'status': 404, 'value': '{"value":{"error":"no such element","message":"no such element: Unable to locate element: {\...0C89BA59+4825]\\n\\tBaseThreadInitThunk [0x00007FFE0D27259D+29]\\n\\tRtlUserThreadStart [0x00007FFE0E56AF78+40]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='btn btn-save-button trigger-btn']"}
+E         (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF70C8ACF45+75717]
+E       	GetHandleVerifier [0x00007FF70C8ACFA0+75808]
+E       	(No symbol) [0x00007FF70C678F9A]
+E       	(No symbol) [0x00007FF70C6CF4C6]
+E       	(No symbol) [0x00007FF70C6CF77C]
+E       	(No symbol) [0x00007FF70C722577]
+E       	(No symbol) [0x00007FF70C6F73BF]
+E       	(No symbol) [0x00007FF70C71F39C]
+E       	(No symbol) [0x00007FF70C6F7153]
+E       	(No symbol) [0x00007FF70C6C0421]
+E       	(No symbol) [0x00007FF70C6C11B3]
+E       	GetHandleVerifier [0x00007FF70CBAD71D+3223453]
+E       	GetHandleVerifier [0x00007FF70CBA7CC2+3200322]
+E       	GetHandleVerifier [0x00007FF70CBC5AF3+3322739]
+E       	GetHandleVerifier [0x00007FF70C8C6A1A+180890]
+E       	GetHandleVerifier [0x00007FF70C8CE11F+211359]
+E       	GetHandleVerifier [0x00007FF70C8B5294+109332]
+E       	GetHandleVerifier [0x00007FF70C8B5442+109762]
+E       	GetHandleVerifier [0x00007FF70C89BA59+4825]
+E       	BaseThreadInitThunk [0x00007FFE0D27259D+29]
+E       	RtlUserThreadStart [0x00007FFE0E56AF78+40]
+
+C:\Users\Omkar.Berde\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchElementException
+------------------------------ Captured log call ------------------------------
+INFO     TestCases.test_Schedules:test_Schedules.py:364 ['TC38 - To verify Add trigger functionality in schedule']
+INFO     Pages.BasePage:BasePage.py:391 Element S_CURRENT_ACCOUNT_TYPE_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:166 Text of Element S_CURRENT_ACCOUNT_TYPE_XPATH is Head User
+INFO     Pages.Schedules:Schedules.py:2905 current_user : Head User
+INFO     Pages.BasePage:BasePage.py:488 Browser Refreshed
+INFO     Pages.BasePage:BasePage.py:449 Element MENU_CONTENT_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:479 Element MENU_CONTENT_XPATH is clickable
+INFO     Pages.BasePage:BasePage.py:212 Clicking on Element MENU_CONTENT_XPATH
+INFO     Pages.BasePage:BasePage.py:449 Element SUBMENU_SCHEDULE_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:479 Element SUBMENU_SCHEDULE_XPATH is clickable
+INFO     Pages.BasePage:BasePage.py:212 Clicking on Element SUBMENU_SCHEDULE_XPATH
+INFO     Pages.BasePage:BasePage.py:479 Element S_ADD_NEW_SCHEDULE_PLUS_ICON_XPATH is clickable
+INFO     Pages.BasePage:BasePage.py:247 Clicked on Element S_ADD_NEW_SCHEDULE_PLUS_ICON_XPATH
+INFO     Pages.BasePage:BasePage.py:449 Element S_SCHEDULE_NAME_INPUT_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:92 Typed in to an Element : S_SCHEDULE_NAME_INPUT_XPATH Value : xXbTN
+INFO     Pages.BasePage:BasePage.py:479 Element S_ADD_BUTTON_NAME is clickable
+INFO     Pages.BasePage:BasePage.py:247 Clicked on Element S_ADD_BUTTON_NAME
+INFO     Pages.BasePage:BasePage.py:479 Element S_ADD_TRIGGER_BTN_XPATH is clickable
+INFO     Pages.BasePage:BasePage.py:247 Clicked on Element S_ADD_TRIGGER_BTN_XPATH
+INFO     Pages.BasePage:BasePage.py:393 ELEMENT NOT FOUND WITHIN GIVEN TIME!
+------------------------------ Captured log call ------------------------------
+INFO     TestCases.test_Schedules:test_Schedules.py:364 ['TC38 - To verify Add trigger functionality in schedule']
+INFO     Pages.BasePage:BasePage.py:391 Element S_CURRENT_ACCOUNT_TYPE_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:166 Text of Element S_CURRENT_ACCOUNT_TYPE_XPATH is Head User
+INFO     Pages.Schedules:Schedules.py:2905 current_user : Head User
+INFO     Pages.BasePage:BasePage.py:488 Browser Refreshed
+INFO     Pages.BasePage:BasePage.py:449 Element MENU_CONTENT_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:479 Element MENU_CONTENT_XPATH is clickable
+INFO     Pages.BasePage:BasePage.py:212 Clicking on Element MENU_CONTENT_XPATH
+INFO     Pages.BasePage:BasePage.py:449 Element SUBMENU_SCHEDULE_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:479 Element SUBMENU_SCHEDULE_XPATH is clickable
+INFO     Pages.BasePage:BasePage.py:212 Clicking on Element SUBMENU_SCHEDULE_XPATH
+INFO     Pages.BasePage:BasePage.py:479 Element S_ADD_NEW_SCHEDULE_PLUS_ICON_XPATH is clickable
+INFO     Pages.BasePage:BasePage.py:247 Clicked on Element S_ADD_NEW_SCHEDULE_PLUS_ICON_XPATH
+INFO     Pages.BasePage:BasePage.py:449 Element S_SCHEDULE_NAME_INPUT_XPATH is visible
+INFO     Pages.BasePage:BasePage.py:92 Typed in to an Element : S_SCHEDULE_NAME_INPUT_XPATH Value : xXbTN
+INFO     Pages.BasePage:BasePage.py:479 Element S_ADD_BUTTON_NAME is clickable
+INFO     Pages.BasePage:BasePage.py:247 Clicked on Element S_ADD_BUTTON_NAME
+INFO     Pages.BasePage:BasePage.py:481 ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+============================== warnings summary ===============================
+test_ZClient.py:19
+  C:\_Scripts\JioSignage_Client\21July\JioSignage_Master_v.3.0\TestCases\test_ZClient.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.detailed - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.detailed
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED test_Contents.py::TestContents::test_addNewContent_BlankSlide - seleni...
+FAILED test_Schedules.py::TestSchedules::test_verifyAddTrigger - selenium.com...
+ERROR test_Contents.py::TestContents::test_addNewContent_BlankSlide - seleniu...
+ERROR test_Contents.py::TestContents::test_addNewContent_TemplateForPlayingVideo
+ERROR test_Contents.py::TestContents::test_DeleteCompletelyContentFromTrashFolder
+ERROR test_Contents.py::TestContents::test_editContent_SaveButton - selenium....
+ERROR test_Contents.py::TestContents::test_editSlidePage_AddObject_AddImage
+ERROR test_Contents.py::TestContents::test_UsageCount - selenium.common.excep...
+ERROR test_Contents.py::TestContents::test_LayoutDetails - selenium.common.ex...
+ERROR test_Contents.py::TestContents::test_LayoutDetails - selenium.common.ex...
+ERROR test_UserAccess.py::TestUserAccess::test_deleteAccountFunction_restoreFromTrashPage
+ERROR test_UserAccess.py::TestUserAccess::test_UserAccess_Search - selenium.c...
+ERROR test_UserAccess.py::TestUserAccess::test_HeadToBase_and_BaseToHead - se...
+ERROR test_UserAccess.py::TestUserAccess::test_SearchBase - selenium.common.e...
+ERROR test_UserAccess.py::TestUserAccess::test_SearchBase - selenium.common.e...
+= 2 failed, 27 passed, 603 deselected, 1 warning, 13 errors, 13 rerun in 1476.72s (0:24:36) =

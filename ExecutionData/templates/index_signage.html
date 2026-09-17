@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jio Signage Automation by VIT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+          integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: #e1e9f5;
+            padding: 20px 40px;
+            border-radius: 12px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            width: 100%;
+            max-width: 750px;
+            text-align: left;
+            height: auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #062d66;
+            margin-bottom: 5px;
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+
+        h4 {
+            font-size: 1.05rem;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        label {
+            font-size: 1rem;
+            color: #363535;
+            text-align: left;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 7px 10px;
+            margin: 0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            box-sizing: border-box;
+            background-color: #f1f6fb;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+            border-color: #4CAF50;
+            box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+        }
+
+        .radio-group {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            margin: 8px 0;
+            cursor: pointer;
+        }
+
+        .radio-group label {
+        display: inline;
+        margin-right: 25px; /* reduce gap here */
+        font-size: 1.0rem;
+        color: #555;
+        cursor: pointer;
+        }
+
+        .radio-group input[type="radio"] {
+            margin-right: 3px; /* reduce spacing between radio and label text */
+            vertical-align: middle; /* keep alignment neat */
+        }
+
+        .radio-group input[type="radio"]:checked + label {
+            color: #2980b9;
+        }
+
+        .radio-group input[type="radio"]:disabled + label {
+            color: #aaa;
+            cursor: not-allowed;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 20px;
+        }
+
+        .button-group input[type="submit"],
+        .button-group button {
+            margin-top: 8px;
+            width: 48%;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            text-align: center;
+        }
+
+        .button-group input[type="submit"]:hover,
+        .button-group button:hover {
+            background-color: #45a049;
+            transform: translateY(-3px);
+        }
+
+        .button-group button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .module-select {
+            display: none;
+        }
+
+        #resetBtn {
+            background-color: #053b5f;
+            font-size: 1.3rem;
+            color: #e2e5e2;
+        }
+
+        #runTest {
+            background-color: #19611c;
+            font-size: 1.3rem;
+            color: #e2e5e2;
+        }
+
+        #resetBtn:hover {
+            background-color: #2980b9;
+        }
+
+        #runTest:hover {
+            background-color: #45a049;
+        }
+
+        #resetBtn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        #rs {
+            width: 130px;
+            padding: 7px 10px;
+            margin: 0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        #rs:focus {
+            border-color: #4CAF50;
+            box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+        }
+
+        #testType {
+            width: 100%
+        }
+
+        #reaseCycle {
+            display: flex;
+            justify-content: space-between;
+            width: 25%;
+            gap: 1px;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+        }
+
+        .password-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .password-container i {
+            position: absolute;
+            right: 10px;
+            top: 70%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loading-content {
+    text-align: center;
+    color: #ec501a;
+    font-size: 1.8rem;
+    font-weight: 650;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #ec501a;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+          #connectBtn {
+    padding: 6px 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50; /* Default: green for "Connect" */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #connectBtn:hover {
+    filter: brightness(1.1);
+  }
+
+  #connectBtn.disconnect {
+    background-color: #ff4d4d; /* Red when in Disconnect mode */
+  }
+
+  #connectBtn.disconnect:hover {
+    filter: brightness(1.1);
+  }
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+
+}
+    .adb-dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: red; /* default */
+  margin-left: 10px;
+}
+
+/* Green (Online) */
+.adb-dot.online {
+  background-color: #4CAF50;
+  animation: pulseGreen 1.5s infinite;
+}
+
+/* Yellow (Connected but Offline) */
+.adb-dot.offline {
+  background-color: #FFC107;
+  animation: pulseYellow 1.5s infinite;
+}
+
+/* Red (Disconnected) */
+.adb-dot.disconnected {
+  background-color: red;
+  animation: pulseRed 1.5s infinite;
+}
+
+@keyframes pulseGreen {
+  0%, 100% { box-shadow: 0 0 0px #4CAF50; }
+  50%     { box-shadow: 0 0 8px #4CAF50; }
+}
+
+@keyframes pulseYellow {
+  0%, 100% { box-shadow: 0 0 0px #FFC107; }
+  50%     { box-shadow: 0 0 8px #FFC107; }
+}
+
+@keyframes pulseRed {
+  0%, 100% { box-shadow: 0 0 0px red; }
+  50%     { box-shadow: 0 0 8px red; }
+}
+
+#runTest {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+        #infoPopup {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.95);
+    transition: opacity 1.8s ease, transform 1.8s ease;
+    pointer-events: none;
+  }
+
+  #infoPopup.show {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: auto;
+  }
+
+
+    </style>
+</head>
+<body>
+
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loading-content">
+    <div class="spinner"></div>
+    <h3>Automation execution is in progress. Please wait...</h3>
+  </div>
+</div>
+
+
+<div class="container">
+    <h2>VIT Automation Test: Jio Signage</h2>
+    <h4>Please Enter the Details</h4>
+    <form action="/submit" method="POST" id="testForm">
+        <div class="form-group">
+            <label for="UserName">User Name:</label>
+            <input type="email" id="UserName" name="UserName"
+                   placeholder="Please enter the email ID registered with Jio Signage." required
+                   oninput="toggleResetButton()" maxlength="40">
+        </div>
+        <div class="form-group password-container">
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" name="Password" placeholder="Please enter a valid password." required
+                   oninput="toggleResetButton()" maxlength="30">
+            <i class="far fa-eye" id="togglePassword"></i>
+        </div>
+
+        <div class="form-group">
+            <div>
+            <label>Environment:</label>
+            <div style="display: flex; align-items: center; gap: 20px;">
+            <div class="radio-group">
+                <input type="radio" id="sit1" name="environment" value="sit1" required onclick="toggleResetButton()">
+                <label for="sit1">SIT-1</label>
+                <input type="radio" id="sit2" name="environment" value="sit2" required onclick="toggleResetButton()">
+                <label for="sit2">SIT-2</label>
+                <input type="radio" id="pre-prod" name="environment" value="pre-prod" required onclick="toggleResetButton()">
+                <label for="pre-prod">Pre-prod</label>
+                <input type="radio" id="prod" name="environment" value="prod" required onclick="toggleResetButton()">
+                <label for="prod">Prod</label>
+            </div>
+
+            <div class="form-group" id="reaseCycle">
+                <label for="rs" style="display: inline-block; text-align: center; margin-left: 80px; width: 120px;">Release Cycle</label>
+                <input type="text" id="rs" name="rs" required oninput="toggleResetButton()" style="margin-left:10px;">
+            </div>
+        </div>
+
+            </div>
+
+        </div>
+
+        <div class="flex-container">
+            <div class="form-group" id="testType">
+                <label>Test Type:</label>
+                <div class="radio-group">
+                    <input type="radio" id="detailedTest" name="testType" value="detailed"
+                           onclick="toggleModuleSelect(false); toggleResetButton(); toggleSmokeTypeSelect(true); preconditionsForClient(false);" required>
+                    <label for="detailedTest">Detailed Test</label>
+                    <input type="radio" id="sanityTest" name="testType" value="sanity"
+                           onclick="toggleModuleSelect(false); toggleResetButton(); toggleSmokeTypeSelect(true)" required>
+                    <label for="sanityTest">Sanity Test</label>
+                     <input type="radio" id="smokeTest" name="testType" value="smoke"
+                           onclick="toggleModuleSelect(false); toggleResetButton(); toggleSmokeTypeSelect(true);" required>
+                    <label for="smokeTest">Smoke Test</label>
+                    <input type="radio" id="modulewiseTest" name="testType" value="modulewise"
+                           onclick="toggleModuleSelect(true); toggleResetButton(); toggleSmokeTypeSelect(false);preconditionsForClient(false);" required>
+                    <label for="modulewiseTest">Modulewise Test</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group module-select" id="moduleSelect">
+            <label for="module">Select Module:</label>
+            <select id="module" name="module">
+                <option value="" disabled selected>Select from below</option>
+                <option value="Dashboard">Dashboard</option>
+                <option value="Displays">Displays</option>
+                <option value="DisplayStatus">Display Status</option>
+                <option value="EmergencyAlerts">EmergencyAlerts</option>
+                <option value="Layout">Layout</option>
+                <!--<option value="LayoutApproval">Layout Approval</option>-->
+                <option value="LoginAndProfile">Login And Profile</option>
+                <option value="Media">Media</option>
+                <option value="Playlists">Playlists</option>
+                <option value="Schedules">Schedules</option>
+                <option value="UserAccess">User Access</option>
+            </select>
+        </div>
+
+      <div class="form-group module-select" id="validation_type_dd">
+  <label for="validation_type">Select Validation Mode:</label>
+  <select id="validation_type" name="validation_type" onchange="handleSmokeTypeChange(this.value)">
+    <option value="" disabled selected>Select from below</option>
+    <option value="client_only">Client Validation</option>
+    <option value="portal_only">Web Portal Validation</option>
+    <option value="portal_client">Client + Web Portal Validation</option>
+  </select>
+</div>
+
+
+<div class="form-group module-select" id="preconditionsField">
+<div style="display: flex; gap: 10px; margin-bottom: 10px; align-items: center;">
+  <label for="ipAddress">Client IP Address:</label>
+
+  <!-- Info Icon -->
+  <span onclick="openInfoPopup()" style="cursor: pointer;" title="Preconditions">
+    <span style="
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      line-height: 18px;
+      font-weight: bold;
+      font-size: 13px;
+    ">i</span>
+  </span>
+
+  <!-- IP Input -->
+  <input
+    type="text"
+    id="ipAddress"
+    placeholder="e.g., 192.168.1.100"
+    style="padding: 6px; flex: 1; font-size: 14px;"
+    maxlength="21"
+  />
+
+  <!-- Connect Button -->
+  <button
+    type="button"
+    id="connectBtn"
+    onclick="toggleAdbConnection()"
+    style="padding: 6px 14px; font-weight: bold; background-color: #4CAF50; color: white; border: none; cursor: pointer;"
+  >
+    Connect via ADB
+  </button>
+
+  <!-- Loader Spinner -->
+  <div id="loader" style="
+    display: none;
+    width: 24px;
+    height: 24px;
+    border: 4px solid #4CAF50;
+    border-top: 4px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 8px;
+  "></div>
+</div>
+    </div>
+
+<!-- Info Modal -->
+<div id="infoPopup" style="
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  background-color: #f5e0db;
+  border: 2px solid #007BFF;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 750px;
+  border-radius: 8px;
+  font-size: 14px;
+">
+  <h4>Preconditions for Initiating Automation Execution on the Client Device<br></h4>
+    <br>
+  <ul style="padding-left: 20px; margin-top: 10px;">
+    <li><b>Network Connectivity : </b>Ensure that both the Test PC/Laptop and the Client (STB) are connected to the same network. A LAN (wired) connection is highly recommended for better stability</li>
+      <br>
+    <li><b>Enable Developer Options : </b>On the Client (STB), navigate to Settings and enable Developer Options to allow connect client device over ADB connection.</li>
+      <br>
+      <li><b>Content Approval Setting : </b> Content approval is disabled from the SP user settings to prevent permission-related interruptions during test execution.</li>
+      <br>
+      <li><b>ADB Platform Tools Installation : </b> Ensure ADB platform tools are installed on the Test PC/Laptop and the ADB executable path is added to the system’s environment variables, verified by running [adb version].</li>
+  </ul>
+<div style="text-align: center; margin-top: 10px;">
+  <button onclick="closeInfoPopup()" style="
+    padding: 6px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  ">Close</button>
+</div>
+
+</div>
+
+
+
+
+<!-- Overlay -->
+<div id="overlay" style="
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 999;
+"></div>
+
+<div id="toast" style="
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 300px;
+  max-width: 90vw;
+  padding: 16px 24px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  z-index: 10000;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+"></div>
+
+<div class="button-group">
+  <button type="button" id="resetBtn" onclick="resetForm()" disabled>Reset</button>
+  <button id="runTest" type="button">Start Test</button>
+
+</div>
+
+    </form>
+</div>
+
+<script>
+
+
+const togglePassword = document.getElementById('togglePassword');
+const password = document.getElementById('Password');
+
+togglePassword.addEventListener('click', function () {
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    this.classList.toggle('fa-eye-slash');
+});
+
+function toggleModuleSelect(show) {
+    const moduleSelect = document.getElementById('moduleSelect');
+    const moduleField = document.getElementById('module');
+    if(moduleSelect) moduleSelect.style.display = show ? 'block' : 'none';
+    if(moduleField) moduleField.required = show;
+}
+
+function toggleSmokeTypeSelect(show) {
+  const validationTypeDD = document.getElementById('validation_type_dd');
+  const validationType = document.getElementById('validation_type');
+
+  if (validationTypeDD) {
+    validationTypeDD.style.display = show ? 'block' : 'none';
+  }
+
+  if (validationType) {
+    validationType.required = show;
+    if (!show) {
+      validationType.value = ""; // Clear the selected value
+    }
+  }
+}
+
+
+function preconditionsForClient(show) {
+    const preconditionsSelect = document.getElementById('preconditionsField');
+    if(preconditionsSelect) preconditionsSelect.style.display = show ? 'block' : 'none';
+}
+async function resetForm() {
+    const form = document.getElementById('testForm');
+    const resetBtn = document.getElementById('resetBtn');
+    const inputs = form.querySelectorAll('input, select');
+
+    inputs.forEach(input => {
+        if (input.id === 'runTest') return; // skip submit button
+
+        if (input.type === 'radio' || input.type === 'checkbox') {
+            input.checked = false;
+        } else if (input.type !== 'submit') {
+            input.value = '';
+        }
+    });
+
+    toggleModuleSelect(false);
+    preconditionsForClient(false);
+    toggleSmokeTypeSelect(false);
+    resetBtn.disabled = true;
+
+    const iterationField = document.getElementById('iteration');
+    if (iterationField) iterationField.value = 1;
+
+    // Reset ADB connection UI and disconnect device if connected
+    const ipInput = document.getElementById("ipAddress");
+    const connectBtn = document.getElementById("connectBtn");
+
+    if (window.isAdbConnected) {
+        try {
+            const res = await fetch(`/disconnect`);
+            const data = await res.json();
+            if (data.status === "disconnected") {
+                window.isAdbConnected = false;
+                showToast("🔴 ADB disconnected due to reset.");
+            } else {
+                showToast("⚠️ Failed to disconnect ADB during reset.");
+            }
+        } catch (error) {
+            console.error("Error disconnecting ADB during reset:", error);
+            showToast("⚠️ Network error while disconnecting ADB.");
+        }
+    }
+
+    ipInput.disabled = false;
+    connectBtn.textContent = "Connect via ADB";
+    connectBtn.style.backgroundColor = "#4CAF50"; // green
+}
+
+
+function toggleResetButton() {
+    const form = document.getElementById('testForm');
+    const resetBtn = document.getElementById('resetBtn');
+    const iterationField = document.getElementById('iteration');
+    const iteration = iterationField ? iterationField.value : 1;
+
+    const inputs = form.querySelectorAll('input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="radio"]:checked, select');
+
+    let formFilled = false;
+    inputs.forEach(input => {
+        if (input.value || (input.type === 'radio' && input.checked)) {
+            formFilled = true;
+        }
+    });
+
+    resetBtn.disabled = !(iteration > 1 || formFilled);
+}
+
+function showLoadingOverlay() {
+    const overlay = document.getElementById('loadingOverlay');
+    if (overlay) overlay.style.display = 'flex';
+}
+
+function hideLoadingOverlay() {
+    const overlay = document.getElementById('loadingOverlay');
+    if (overlay) overlay.style.display = 'none';
+}
+
+window.onload = function () {
+    hideLoadingOverlay();
+};
+
+const form = document.getElementById('testForm');
+
+// Prevent any default form submission
+form.addEventListener('submit', function (event) {
+    event.preventDefault();
+});
+
+
+// Disable Detailed Test when SIT-1 or SIT-2 is selected
+const environmentRadios = document.querySelectorAll('input[name="environment"]');
+const detailedTest = document.getElementById('detailedTest');
+
+environmentRadios.forEach(radio => {
+    radio.addEventListener('change', function () {
+        if (this.value === 'sit1') {
+            if (detailedTest) {
+                detailedTest.disabled = true;
+                detailedTest.checked = false;
+            }
+        } else {
+            if (detailedTest) detailedTest.disabled = false;
+        }
+
+        const modulewiseTest = document.getElementById('modulewiseTest');
+        if (modulewiseTest) toggleModuleSelect(modulewiseTest.checked);
+
+        toggleResetButton();
+    });
+});
+// Ensure global ADB connection status is tracked
+window.isAdbConnected = false;
+
+
+document.getElementById('runTest').addEventListener('click', function (e) {
+  e.preventDefault();
+
+  const form = document.getElementById('testForm');
+
+  // ✅ Validate form before proceeding
+  if (!form.checkValidity()) {
+    form.reportValidity();
+    return;
+  }
+
+  const testTypeRadio = document.querySelector('input[name="testType"]:checked');
+  const validationType = document.getElementById('validation_type');
+  const isConnected = window.isAdbConnected; // ✅ Use global variable
+
+  if (!testTypeRadio) {
+    alert("Please select a test type.");
+    return;
+  }
+
+  const testType = testTypeRadio.value;
+  const validationValue = validationType ? validationType.value : "";
+
+  const requiresClient = testType === 'smoke' && (validationValue === 'client_only' || validationValue === 'portal_client');
+
+  if (requiresClient) {
+    if (!window.isAdbConnected) {
+      alert("⚠️ ADB connection required.\n\nPlease enter the device IP and click on 'Connect via ADB' to proceed.");
+      return;
+    }
+
+    fetch('/check_adb')
+      .then(res => res.json())
+      .then(data => {
+        if (data.status === 'online') {
+          showLoadingOverlay();
+          form.submit();
+        } else if (data.status === 'offline') {
+          alert('⚠️ Device connected via ADB, but it is currently offline.\n\nPlease check the connection, confirm authorization, or reboot the device to resolve the issue.');
+        } else if (data.status === 'no_device') {
+          alert('No device connected via ADB. Please connect a device to continue.');
+        } else {
+          alert('ADB returned unknown device status: ' + (data.raw_status || 'N/A'));
+        }
+      })
+      .catch(err => {
+        alert('Error checking ADB connection: ' + err.message);
+      });
+  } else {
+    showLoadingOverlay();
+    form.submit();
+  }
+});
+
+
+async function toggleAdbConnection() {
+  const ipInput = document.getElementById("ipAddress");
+  const button = document.getElementById("connectBtn");
+  const loader = document.getElementById("loader"); // Your spinner div
+  const ip = ipInput.value.trim();
+
+  // Show loader and disable button immediately
+  loader.style.display = "inline-block";
+  button.disabled = true;
+
+  if (!window.isAdbConnected) {
+    if (!ip) {
+      loader.style.display = "none";
+      button.disabled = false;
+      showToast("⚠️ Please enter a valid IP address.", "error");
+      return;
+    }
+
+    try {
+      const res = await fetch(`/ping?ip=${encodeURIComponent(ip)}`);
+      const data = await res.json();
+
+      loader.style.display = "none";
+      button.disabled = false;
+
+      if (data.status === "reachable") {
+        window.isAdbConnected = true;
+        ipInput.disabled = true;
+        button.textContent = "Disconnect";
+        button.style.backgroundColor = "#ff4d4d"; // red
+        showToast("✅ ADB connected successfully!", "success");
+      } else {
+        showToast("❌ Failed to connect via ADB.\n" + (data.error || data.message || "Unknown error."), "error");
+      }
+    } catch (error) {
+      loader.style.display = "none";
+      button.disabled = false;
+      showToast("❌ Network or server error: " + error.message, "error");
+    }
+
+  } else {
+    try {
+      const res = await fetch(`/disconnect`);
+      const data = await res.json();
+
+      loader.style.display = "none";
+      button.disabled = false;
+
+      if (data.status === "disconnected") {
+        window.isAdbConnected = false;
+        ipInput.disabled = false;
+        button.textContent = "Connect via ADB";
+        button.style.backgroundColor = "#4CAF50"; // green
+        showToast("🔴 ADB disconnected successfully!", "success");
+      } else {
+        showToast("❌ Failed to disconnect.\n" + (data.error || data.message || "Unknown error."), "error");
+      }
+    } catch (error) {
+      loader.style.display = "none";
+      button.disabled = false;
+      showToast("❌ Network or server error: " + error.message, "error");
+    }
+  }
+}
+function showToast(message, type = "success", duration = 6000) {
+  const toast = document.getElementById("toast");
+
+  if (type === "success") {
+    toast.style.backgroundColor = "#4CAF50"; // Green
+  } else if (type === "error") {
+    toast.style.backgroundColor = "#f44336"; // Red
+  } else if (type === "neutral") {
+    toast.style.backgroundColor = "#2196F3"; // Blue or neutral color
+  } else {
+    toast.style.backgroundColor = "#333"; // Default fallback
+  }
+
+  toast.textContent = message;
+  toast.style.visibility = "visible";
+  toast.style.opacity = "1";
+
+  if (toast.hideTimeout) clearTimeout(toast.hideTimeout);
+
+  toast.hideTimeout = setTimeout(() => {
+    toast.style.opacity = "0";
+    toast.style.visibility = "hidden";
+  }, duration);
+}
+function updateRunTestButtonColor(status) {
+  const runTestBtn = document.getElementById("runTest");
+  const smokeTest = document.getElementById("smokeTest");
+  const sanityTest = document.getElementById("sanityTest");
+  const validationType = document.getElementById("validation_type");
+
+  if (!runTestBtn || !smokeTest || !sanityTest || !validationType) return;
+
+  const isSmokeSelected = smokeTest.checked;
+  const isSanitySelected = sanityTest.checked;
+  const validationValue = validationType.value;
+
+  const requiresClient = validationValue === "client_only" || validationValue === "portal_client";
+
+  if ((isSmokeSelected || isSanitySelected) && requiresClient) {
+    if (status === 'online') {
+      runTestBtn.style.backgroundColor = '#4CAF50'; // Green
+      runTestBtn.style.color = 'white';
+    } else if (status === 'offline') {
+      runTestBtn.style.backgroundColor = '#FFD700'; // Yellow
+      runTestBtn.style.color = '#000';
+    } else {
+      runTestBtn.style.backgroundColor = '#f44336'; // Red
+      runTestBtn.style.color = 'white';
+    }
+  } else {
+    // Revert to default style when not applicable
+    runTestBtn.style.backgroundColor = '';
+    runTestBtn.style.color = '';
+  }
+}
+
+
+
+// Initial check
+updateRunTestButtonColor('no_device');
+
+// Check ADB status every 10 seconds
+setInterval(async () => {
+  try {
+    const res = await fetch('/check_adb');
+    const data = await res.json();
+    updateRunTestButtonColor(data.status);
+  } catch (e) {
+    updateRunTestButtonColor('no_device');
+  }
+}, 1000);
+
+// Also re-check when test type changes
+document.querySelectorAll('input[name="testType"]').forEach(radio => {
+  radio.addEventListener('change', async () => {
+    try {
+      const res = await fetch('/check_adb');
+      const data = await res.json();
+      updateRunTestButtonColor(data.status);
+    } catch {
+      updateRunTestButtonColor('no_device');
+    }
+  });
+});
+function openInfoPopup() {
+  const popup = document.getElementById('infoPopup');
+  const overlay = document.getElementById('overlay');
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+  setTimeout(() => {
+    overlay.style.opacity = '1';
+    popup.classList.add('show');
+  }, 200);
+}
+
+function closeInfoPopup() {
+  const popup = document.getElementById('infoPopup');
+  const overlay = document.getElementById('overlay');
+  popup.classList.remove('show');
+  overlay.style.opacity = '0';
+  setTimeout(() => {
+    popup.style.display = 'none';
+    overlay.style.display = 'none';
+  }, 100);
+}
+
+    function handleSmokeTypeChange(value) {
+  if (value === "client_only" || value === "portal_client") {
+    openInfoPopup()
+    preconditionsForClient(true);
+
+  } else {
+    preconditionsForClient(false);
+  }
+}
+
+
+</script>
+
+</body>
+</html>

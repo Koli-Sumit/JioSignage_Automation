@@ -1,0 +1,37 @@
+def TC_Delivermanagement(number):
+    return testCases_DeliveryManagement_Org[number-1]
+
+
+testCases_DeliveryManagement_Org = [
+    ['Verify UI/UX of Delivery Management page'],
+    ['Verify Search Box Functionality'],
+    ['Verify Display Id Search Functionality'],
+    ['Verify Display Name Search Functionality'],
+    ['Verify Schedule Search Functionality'],
+    ['Verify IP Address Search Functionality'],
+    ['Verify HDMI Status Search Functionality'],
+    ['Verify SORT By Display Id Functionality'],
+    ['Verify SORT By Display Name Functionality'],
+    ['Verify disabled icon enable by selecting one or more Delivery checkbox'],
+    ['Verify Show Entries based on entries selection'],
+    ['Verify disabled Deliver icon enable by selecting one or more Delivery checkbox'],
+    ['Verify disabled Sync icon enable by selecting one or more Delivery checkbox'],
+    ['Verify disabled Reboot icon enable by selecting one or more Delivery checkbox'],
+    ['Verify disabled Assign Schedule icon enable by selecting one or more Delivery checkbox and Assign Schedule by Deliver Now'],
+    ['Verify Left Navigation of Delivery Management'],
+    ['Verify Online Displays of Left Navigation'],
+    ['Verify Base of Left Navigation'],
+    ['Verify State of Left Navigation'],
+    ['Verify City of Left Navigation'],
+    ['Verify District of Left Navigation'],
+    ['Verify Pin code of Left Navigation'],
+    ['Verify OS Type of Left Navigation'],
+    ['Verify Schedule of Left Navigation'],
+    ['Verify Tag wise of Left Navigation'],
+    ['Verify HDMI Status of Left Navigation'],
+    ['Verify User is able to SORT the list by IP Address'],
+    ['Deliver button functionality'],
+    ['Sync button functionality '],
+    ['Reboot button functionality'],
+    ['Assign Schedule functionlity -->Deliver Now'],
+]
