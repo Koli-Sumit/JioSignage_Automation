@@ -1,0 +1,50 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:460 TC['check user able to click "save" and "cancel "option" from new phone number OSD.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PROFILE_ICON_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_PROFILE_ICON_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:482 ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_VIEW_PROFILE_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PHONE_NUM_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:212 Clicking on Element O_PHONE_NUM_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:111 Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 2418494710
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PHONE_NUM_BTN_XPATH is clickable
+[33mWARNING [0m Pages.BasePage:BasePage.py:215 Attempt 1: Exception occurred while clicking - Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7fe079d55+5a55]
+	chromedriver!(No symbol) [0x7ff7fdf9f540]
+	chromedriver!(No symbol) [0x7ff7fddc45fd]
+	chromedriver!(No symbol) [0x7ff7fddcc6e1]
+	chromedriver!(No symbol) [0x7ff7fddcf625]
+	chromedriver!(No symbol) [0x7ff7fddcf6ef]
+	chromedriver!(No symbol) [0x7ff7fde277aa]
+	chromedriver!(No symbol) [0x7ff7fde2567a]
+	chromedriver!(No symbol) [0x7ff7fde229b7]
+	chromedriver!(No symbol) [0x7ff7fde21880]
+	chromedriver!(No symbol) [0x7ff7fde13828]
+	chromedriver!(No symbol) [0x7ff7fde490ea]
+	chromedriver!(No symbol) [0x7ff7fde130a6]
+	chromedriver!(No symbol) [0x7ff7fde6fcd9]
+	chromedriver!(No symbol) [0x7ff7fde11a12]
+	chromedriver!(No symbol) [0x7ff7fde12823]
+	chromedriver!GetHandleVerifier [0x7ff7fe4904b1+41c1b1]
+	chromedriver!GetHandleVerifier [0x7ff7fe4be26b+449f6b]
+	chromedriver!GetHandleVerifier [0x7ff7fe4b274e+43e44e]
+	chromedriver!GetHandleVerifier [0x7ff7fe1732fe+feffe]
+	chromedriver!(No symbol) [0x7ff7fdfacb55]
+	chromedriver!(No symbol) [0x7ff7fdfa7f64]
+	chromedriver!(No symbol) [0x7ff7fdfa80f4]
+	chromedriver!(No symbol) [0x7ff7fdf92e4c]
+	KERNEL32!BaseThreadInitThunk [0x7ff90ed2cdf7+17]
+	ntdll!RtlUserThreadStart [0x7ff910e3ee4c+2c]
+. Retrying...
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PHONE_NUM_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:212 Clicking on Element O_PHONE_NUM_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:279 O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False

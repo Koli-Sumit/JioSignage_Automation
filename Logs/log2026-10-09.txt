@@ -1,0 +1,1090 @@
+2026-10-09 15:29:29,810 - test_LoginAndProfile.py:[51] - [INFO] - TC['Check that user is able to open Sign In Page']
+2026-10-09 15:29:33,261 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 15:29:33,290 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 15:29:33,337 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 15:29:33,749 - test_LoginAndProfile.py:[75] - [INFO] - TC['Verify the UI/UX of JioSignage page.']
+2026-10-09 15:29:37,049 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 15:29:37,065 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 15:29:37,097 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 15:29:37,113 - BasePage.py:[392] - [INFO] - Element O_LOGIN_TEXT_XPATH is visible
+2026-10-09 15:29:37,136 - BasePage.py:[166] - [INFO] - Text of Element O_LOGIN_TEXT_XPATH is Login
+2026-10-09 15:29:37,152 - BasePage.py:[392] - [INFO] - Element O_EMAIL_TEXT_XPATH is visible
+2026-10-09 15:29:37,174 - BasePage.py:[166] - [INFO] - Text of Element O_EMAIL_TEXT_XPATH is Email address
+2026-10-09 15:29:37,182 - BasePage.py:[392] - [INFO] - Element O_PASSWORD_TEXT_XPATH is visible
+2026-10-09 15:29:37,197 - BasePage.py:[166] - [INFO] - Text of Element O_PASSWORD_TEXT_XPATH is Password
+2026-10-09 15:29:37,213 - BasePage.py:[392] - [INFO] - Element O_GetOTP_BTN_XPATH is visible
+2026-10-09 15:29:37,234 - BasePage.py:[166] - [INFO] - Text of Element O_GetOTP_BTN_XPATH is Get OTP
+2026-10-09 15:29:37,245 - BasePage.py:[392] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:29:37,260 - BasePage.py:[279] - [INFO] - O_ENTER_EMAIL_XPATH is Displayed : True
+2026-10-09 15:29:37,276 - BasePage.py:[392] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:29:37,308 - BasePage.py:[279] - [INFO] - O_ENTER_PASSWORD_XPATH is Displayed : True
+2026-10-09 15:29:37,621 - test_LoginAndProfile.py:[116] - [INFO] - TC['Verify user able to see the JioSignage logo in JioSignage login page.']
+2026-10-09 15:29:40,849 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 15:29:40,881 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 15:29:40,902 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 15:29:41,146 - test_LoginAndProfile.py:[140] - [INFO] - TC['Check user able to enter any text in Email address field.']
+2026-10-09 15:29:41,381 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:29:41,451 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : DZSKC5@gmail.com
+2026-10-09 15:29:52,783 - test_LoginAndProfile.py:[183] - [INFO] - TC['Check user able to enter the text in Password field.']
+2026-10-09 15:29:53,124 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:29:53,169 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : TJrqABC1
+2026-10-09 15:30:05,433 - test_LoginAndProfile.py:[227] - [INFO] - TC['Verify user is able to click password show icon in JioSignage login page.']
+2026-10-09 15:30:05,750 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:30:05,766 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : AFZ3RSXA
+2026-10-09 15:30:05,783 - BasePage.py:[480] - [INFO] - Element O_SHOW_PASSWORD_BTN_XPATH is clickable
+2026-10-09 15:30:05,807 - BasePage.py:[247] - [INFO] - Clicked on Element O_SHOW_PASSWORD_BTN_XPATH
+2026-10-09 15:30:17,899 - test_LoginAndProfile.py:[269] - [INFO] - TC['Verify user able to select the remember me option in JioSignage page.']
+2026-10-09 15:30:18,233 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:30:18,259 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : wlQdfu@gmail.com
+2026-10-09 15:30:18,267 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:30:18,300 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : toaejIxq
+2026-10-09 15:30:18,317 - BasePage.py:[480] - [INFO] - Element O_REMEMBER_ME_BTN_XPATH is clickable
+2026-10-09 15:30:18,333 - BasePage.py:[247] - [INFO] - Clicked on Element O_REMEMBER_ME_BTN_XPATH
+2026-10-09 15:30:18,350 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 15:30:18,368 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 15:30:28,722 - test_LoginAndProfile.py:[318] - [INFO] - TC['Verify user able to login using valid credentials in JioSignage login page.']
+2026-10-09 15:30:31,728 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/dashboard
+2026-10-09 15:30:38,393 - test_LoginAndProfile.py:[338] - [INFO] - TC['Verify user able to click back button to redirect previous page from OTP page.']
+2026-10-09 15:30:39,034 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:30:39,052 - BasePage.py:[111] - [INFO] - Clear data from locator : O_ENTER_EMAIL_XPATH
+2026-10-09 15:30:39,067 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:30:39,101 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : akash.samal@ril.com
+2026-10-09 15:30:39,108 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:30:39,144 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : Test@321
+2026-10-09 15:30:39,156 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 15:30:39,172 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 15:30:47,213 - BasePage.py:[506] - [INFO] - Current URL is : data:,
+2026-10-09 15:30:55,752 - test_LoginAndProfile.py:[338] - [INFO] - TC['Verify user able to click back button to redirect previous page from OTP page.']
+2026-10-09 15:30:56,070 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:30:56,118 - BasePage.py:[111] - [INFO] - Clear data from locator : O_ENTER_EMAIL_XPATH
+2026-10-09 15:30:56,134 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:30:56,168 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : akash.samal@ril.com
+2026-10-09 15:30:56,201 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:30:56,234 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : Test@321
+2026-10-09 15:30:56,267 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 15:30:56,284 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 15:31:04,327 - BasePage.py:[506] - [INFO] - Current URL is : data:,
+2026-10-09 15:31:14,202 - test_LoginAndProfile.py:[390] - [INFO] - TC['check user able to select the view profile option.']
+2026-10-09 15:31:16,234 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:31:16,265 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:31:36,772 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:31:38,689 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:31:41,692 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/profile/user_details
+2026-10-09 15:31:48,012 - test_LoginAndProfile.py:[443] - [INFO] - TC['check user able to click "save" and "cancel "option" from user name OSD.']
+2026-10-09 15:31:50,030 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:31:50,048 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:32:10,511 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:32:12,551 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:32:15,385 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:32:15,421 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 15:32:15,427 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:32:15,460 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account sjjtwc
+2026-10-09 15:32:17,473 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 15:32:17,489 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:32:17,511 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:32:19,552 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 15:32:19,552 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 15:32:32,121 - BasePage.py:[394] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME!
+2026-10-09 15:32:44,790 - test_LoginAndProfile.py:[443] - [INFO] - TC['check user able to click "save" and "cancel "option" from user name OSD.']
+2026-10-09 15:32:46,819 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:32:46,844 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:33:06,858 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:33:09,041 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:33:12,040 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:33:12,064 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 15:33:12,084 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:33:12,121 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account iecbkw
+2026-10-09 15:33:14,141 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 15:33:14,176 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:33:14,203 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:33:16,255 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 15:33:16,271 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 15:33:28,811 - BasePage.py:[394] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME!
+2026-10-09 15:33:41,125 - test_LoginAndProfile.py:[460] - [INFO] - TC['check user able to click "save" and "cancel "option" from new phone number OSD.']
+2026-10-09 15:33:43,158 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:33:43,181 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:34:03,672 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:34:05,731 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:34:05,749 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:34:05,772 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:34:08,419 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:34:08,446 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 15:34:08,457 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:34:08,484 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 2749438084
+2026-10-09 15:34:08,488 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:34:08,505 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:34:10,538 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:34:11,013 - BasePage.py:[215] - [WARNING] - Attempt 1: Exception occurred while clicking - Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a0929d55+5a55]
+	chromedriver!(No symbol) [0x7ff6a084f540]
+	chromedriver!(No symbol) [0x7ff6a06745fd]
+	chromedriver!(No symbol) [0x7ff6a067c6e1]
+	chromedriver!(No symbol) [0x7ff6a067f625]
+	chromedriver!(No symbol) [0x7ff6a067f6ef]
+	chromedriver!(No symbol) [0x7ff6a06d77aa]
+	chromedriver!(No symbol) [0x7ff6a06d567a]
+	chromedriver!(No symbol) [0x7ff6a06d29b7]
+	chromedriver!(No symbol) [0x7ff6a06d1880]
+	chromedriver!(No symbol) [0x7ff6a06c3828]
+	chromedriver!(No symbol) [0x7ff6a06f90ea]
+	chromedriver!(No symbol) [0x7ff6a06c30a6]
+	chromedriver!(No symbol) [0x7ff6a071fcd9]
+	chromedriver!(No symbol) [0x7ff6a06c1a12]
+	chromedriver!(No symbol) [0x7ff6a06c2823]
+	chromedriver!GetHandleVerifier [0x7ff6a0d404b1+41c1b1]
+	chromedriver!GetHandleVerifier [0x7ff6a0d6e26b+449f6b]
+	chromedriver!GetHandleVerifier [0x7ff6a0d6274e+43e44e]
+	chromedriver!GetHandleVerifier [0x7ff6a0a232fe+feffe]
+	chromedriver!(No symbol) [0x7ff6a085cb55]
+	chromedriver!(No symbol) [0x7ff6a0857f64]
+	chromedriver!(No symbol) [0x7ff6a08580f4]
+	chromedriver!(No symbol) [0x7ff6a0842e4c]
+	KERNEL32!BaseThreadInitThunk [0x7fff10bacdf7+17]
+	ntdll!RtlUserThreadStart [0x7fff1183ee4c+2c]
+. Retrying...
+2026-10-09 15:34:14,027 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:34:14,068 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:34:16,955 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 15:34:16,978 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 15:34:18,982 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 15:34:18,998 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 15:34:25,205 - test_LoginAndProfile.py:[477] - [INFO] - TC['verify user able to close the new phone number OSD by clicking "X"']
+2026-10-09 15:34:27,226 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:34:27,241 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:34:47,693 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:34:49,776 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:34:49,794 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:34:49,827 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:34:52,389 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_X_BTN_XPATH is clickable
+2026-10-09 15:34:52,408 - BasePage.py:[247] - [INFO] - Clicked on Element O_PHONE_NUM_X_BTN_XPATH
+2026-10-09 15:34:54,414 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 15:34:54,430 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 15:35:01,129 - test_LoginAndProfile.py:[492] - [INFO] - TC['Check user able to update the password with two different password in two different field and observe.']
+2026-10-09 15:35:03,143 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:35:03,162 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:35:23,601 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:35:25,434 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:35:25,453 - BasePage.py:[480] - [INFO] - Element O_EDIT_PASSWORD_BTN_XPATH is clickable
+2026-10-09 15:35:25,486 - BasePage.py:[212] - [INFO] - Clicking on Element O_EDIT_PASSWORD_BTN_XPATH
+2026-10-09 15:35:27,506 - BasePage.py:[450] - [INFO] - Element N_Current_Password_Field_XPATH is visible
+2026-10-09 15:35:27,540 - BasePage.py:[92] - [INFO] - Typed in to an Element : N_Current_Password_Field_XPATH Value : Jio@222333
+2026-10-09 15:35:27,557 - BasePage.py:[450] - [INFO] - Element O_NEW_PASS_XPATH is visible
+2026-10-09 15:35:27,592 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_NEW_PASS_XPATH Value : Tgehrn@8584
+2026-10-09 15:35:27,607 - BasePage.py:[450] - [INFO] - Element O_NEW_PASS_Conf_XPATH is visible
+2026-10-09 15:35:27,641 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_NEW_PASS_Conf_XPATH Value : Teflkjfj@359
+2026-10-09 15:35:27,658 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:35:27,678 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:35:27,682 - BasePage.py:[392] - [INFO] - Element O_alert_XPATH is visible
+2026-10-09 15:35:27,695 - BasePage.py:[166] - [INFO] - Text of Element O_alert_XPATH is 
+2026-10-09 15:35:32,235 - test_LoginAndProfile.py:[503] - [INFO] - TC['verify user able to close the new passwordr OSD by clicking "X"']
+2026-10-09 15:35:34,250 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:35:34,272 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:35:54,717 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:35:57,059 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:35:57,075 - BasePage.py:[480] - [INFO] - Element O_EDIT_PASSWORD_BTN_XPATH is clickable
+2026-10-09 15:35:57,110 - BasePage.py:[212] - [INFO] - Clicking on Element O_EDIT_PASSWORD_BTN_XPATH
+2026-10-09 15:35:59,897 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_X_BTN_XPATH is clickable
+2026-10-09 15:35:59,908 - BasePage.py:[247] - [INFO] - Clicked on Element O_PHONE_NUM_X_BTN_XPATH
+2026-10-09 15:36:01,920 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 15:36:01,927 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 15:36:09,207 - test_LoginAndProfile.py:[517] - [INFO] - TC['Verify user able to select the view service plan from profile.']
+2026-10-09 15:36:09,225 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:36:09,242 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:36:29,696 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:36:29,716 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_SERVICE_PLAN_XPATH
+2026-10-09 15:36:34,719 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/profile/plan
+2026-10-09 15:36:34,735 - BasePage.py:[392] - [INFO] - Element O_SERVICE_PLAN_TEXT_XPATH is visible
+2026-10-09 15:36:34,735 - BasePage.py:[166] - [INFO] - Text of Element O_SERVICE_PLAN_TEXT_XPATH is Service Plan
+2026-10-09 15:36:40,580 - test_LoginAndProfile.py:[540] - [INFO] - TC['Verify user able to select the help option from profile icon.']
+2026-10-09 15:36:40,611 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:36:40,624 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:37:01,058 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:37:01,116 - BasePage.py:[247] - [INFO] - Clicked on Element O_HELP_XPATH
+2026-10-09 15:37:06,132 - BasePage.py:[506] - [INFO] - Current URL is : https://www.jiothings.com/jiosignage.html
+2026-10-09 15:37:13,496 - test_LoginAndProfile.py:[555] - [INFO] - TC['Verify user able to select the logout option from profile icon.']
+2026-10-09 15:37:13,543 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:37:13,562 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:37:34,084 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:37:34,113 - BasePage.py:[247] - [INFO] - Clicked on Element O_LOGOUT_XPATH
+2026-10-09 15:37:34,137 - BasePage.py:[480] - [INFO] - Element O_LOGOUT_OK_BTN_XPATH is clickable
+2026-10-09 15:37:34,157 - BasePage.py:[247] - [INFO] - Clicked on Element O_LOGOUT_OK_BTN_XPATH
+2026-10-09 15:37:34,157 - BasePage.py:[489] - [INFO] - Browser Refreshed
+2026-10-09 15:37:39,342 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 15:37:39,359 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 15:37:39,376 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 15:37:50,852 - test_LoginAndProfile.py:[610] - [INFO] - TC['check user able to update the user name.']
+2026-10-09 15:37:52,877 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:37:52,895 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:38:13,344 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:38:16,081 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:38:18,102 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:38:22,692 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:38:22,720 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 15:38:22,732 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:38:22,763 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account arbhrh
+2026-10-09 15:38:24,771 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 15:38:24,790 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:38:24,802 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:38:26,817 - BasePage.py:[392] - [INFO] - Element O_PROFILE_USERNAME_XPATH is visible
+2026-10-09 15:38:30,839 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:38:30,863 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:38:51,306 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:38:54,169 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:38:58,467 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:38:58,991 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:38:59,010 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 15:38:59,021 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:38:59,052 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account iecbkw
+2026-10-09 15:39:01,059 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 15:39:01,069 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:39:01,091 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:39:06,180 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:39:12,551 - test_LoginAndProfile.py:[633] - [INFO] - TC['check user able to update the phone number.']
+2026-10-09 15:39:14,578 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:39:14,593 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:39:35,038 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:39:38,203 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:39:38,223 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:39:38,263 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:39:40,396 - BasePage.py:[392] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:39:42,539 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:39:42,576 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:39:45,211 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:39:45,233 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 15:39:45,233 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:39:45,271 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 8901446473
+2026-10-09 15:39:45,281 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:39:45,297 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:39:49,597 - test_LoginAndProfile.py:[633] - [INFO] - TC['check user able to update the phone number.']
+2026-10-09 15:39:51,614 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:39:51,652 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:40:11,697 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:40:13,933 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:40:13,954 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:40:13,979 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:40:16,264 - BasePage.py:[392] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:40:18,660 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:40:18,706 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:40:21,398 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:40:21,432 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 15:40:21,444 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:40:21,484 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 4781153450
+2026-10-09 15:40:21,497 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:40:21,514 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:50:12,014 - test_LoginAndProfile.py:[51] - [INFO] - TC['Check that user is able to open Sign In Page']
+2026-10-09 15:50:15,318 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 15:50:15,352 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 15:50:15,371 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 15:50:15,725 - test_LoginAndProfile.py:[75] - [INFO] - TC['Verify the UI/UX of JioSignage page.']
+2026-10-09 15:50:18,962 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 15:50:18,978 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 15:50:18,996 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 15:50:19,009 - BasePage.py:[392] - [INFO] - Element O_LOGIN_TEXT_XPATH is visible
+2026-10-09 15:50:19,025 - BasePage.py:[166] - [INFO] - Text of Element O_LOGIN_TEXT_XPATH is Login
+2026-10-09 15:50:19,047 - BasePage.py:[392] - [INFO] - Element O_EMAIL_TEXT_XPATH is visible
+2026-10-09 15:50:19,066 - BasePage.py:[166] - [INFO] - Text of Element O_EMAIL_TEXT_XPATH is Email address
+2026-10-09 15:50:19,073 - BasePage.py:[392] - [INFO] - Element O_PASSWORD_TEXT_XPATH is visible
+2026-10-09 15:50:19,103 - BasePage.py:[166] - [INFO] - Text of Element O_PASSWORD_TEXT_XPATH is Password
+2026-10-09 15:50:19,114 - BasePage.py:[392] - [INFO] - Element O_GetOTP_BTN_XPATH is visible
+2026-10-09 15:50:19,132 - BasePage.py:[166] - [INFO] - Text of Element O_GetOTP_BTN_XPATH is Get OTP
+2026-10-09 15:50:19,147 - BasePage.py:[392] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:50:19,162 - BasePage.py:[279] - [INFO] - O_ENTER_EMAIL_XPATH is Displayed : True
+2026-10-09 15:50:19,178 - BasePage.py:[392] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:50:19,194 - BasePage.py:[279] - [INFO] - O_ENTER_PASSWORD_XPATH is Displayed : True
+2026-10-09 15:50:19,565 - test_LoginAndProfile.py:[116] - [INFO] - TC['Verify user able to see the JioSignage logo in JioSignage login page.']
+2026-10-09 15:50:22,821 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 15:50:22,828 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 15:50:22,844 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 15:50:23,178 - test_LoginAndProfile.py:[140] - [INFO] - TC['Check user able to enter any text in Email address field.']
+2026-10-09 15:50:23,461 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:50:23,516 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : XU9cRi@gmail.com
+2026-10-09 15:50:32,328 - test_LoginAndProfile.py:[183] - [INFO] - TC['Check user able to enter the text in Password field.']
+2026-10-09 15:50:32,627 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:50:32,678 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : VT6DKxPF
+2026-10-09 15:50:41,246 - test_LoginAndProfile.py:[227] - [INFO] - TC['Verify user is able to click password show icon in JioSignage login page.']
+2026-10-09 15:50:41,545 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:50:41,578 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : MNWIwwVb
+2026-10-09 15:50:41,595 - BasePage.py:[480] - [INFO] - Element O_SHOW_PASSWORD_BTN_XPATH is clickable
+2026-10-09 15:50:41,616 - BasePage.py:[247] - [INFO] - Clicked on Element O_SHOW_PASSWORD_BTN_XPATH
+2026-10-09 15:50:52,220 - test_LoginAndProfile.py:[269] - [INFO] - TC['Verify user able to select the remember me option in JioSignage page.']
+2026-10-09 15:50:52,614 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:50:52,646 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : kyhRZg@gmail.com
+2026-10-09 15:50:52,661 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:50:52,694 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : 08OfJy5r
+2026-10-09 15:50:52,711 - BasePage.py:[480] - [INFO] - Element O_REMEMBER_ME_BTN_XPATH is clickable
+2026-10-09 15:50:52,728 - BasePage.py:[247] - [INFO] - Clicked on Element O_REMEMBER_ME_BTN_XPATH
+2026-10-09 15:50:52,761 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 15:50:52,781 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 15:51:04,934 - test_LoginAndProfile.py:[318] - [INFO] - TC['Verify user able to login using valid credentials in JioSignage login page.']
+2026-10-09 15:51:07,943 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/dashboard
+2026-10-09 15:51:16,152 - test_LoginAndProfile.py:[338] - [INFO] - TC['Verify user able to click back button to redirect previous page from OTP page.']
+2026-10-09 15:51:16,481 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:51:16,513 - BasePage.py:[111] - [INFO] - Clear data from locator : O_ENTER_EMAIL_XPATH
+2026-10-09 15:51:16,530 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:51:16,578 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : akash.samal@ril.com
+2026-10-09 15:51:16,596 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:51:16,631 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : Test@321
+2026-10-09 15:51:16,645 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 15:51:16,664 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 15:51:24,693 - BasePage.py:[506] - [INFO] - Current URL is : data:,
+2026-10-09 15:51:33,527 - test_LoginAndProfile.py:[338] - [INFO] - TC['Verify user able to click back button to redirect previous page from OTP page.']
+2026-10-09 15:51:33,863 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:51:33,913 - BasePage.py:[111] - [INFO] - Clear data from locator : O_ENTER_EMAIL_XPATH
+2026-10-09 15:51:33,930 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 15:51:33,982 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : akash.samal@ril.com
+2026-10-09 15:51:33,996 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 15:51:34,046 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : Test@321
+2026-10-09 15:51:34,077 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 15:51:34,102 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 15:51:42,135 - BasePage.py:[506] - [INFO] - Current URL is : data:,
+2026-10-09 15:51:52,668 - test_LoginAndProfile.py:[390] - [INFO] - TC['check user able to select the view profile option.']
+2026-10-09 15:51:54,697 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:51:54,725 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:52:14,753 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:52:16,929 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:52:19,938 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/profile/user_details
+2026-10-09 15:52:27,453 - test_LoginAndProfile.py:[443] - [INFO] - TC['check user able to click "save" and "cancel "option" from user name OSD.']
+2026-10-09 15:52:29,467 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:52:29,488 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:52:49,664 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:52:51,887 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:53:13,026 - BasePage.py:[452] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME!
+2026-10-09 15:53:25,346 - test_LoginAndProfile.py:[443] - [INFO] - TC['check user able to click "save" and "cancel "option" from user name OSD.']
+2026-10-09 15:53:27,361 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:53:27,386 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:53:47,908 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:53:50,000 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:53:53,130 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:53:53,174 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 15:53:53,194 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:53:53,241 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account csgdjs
+2026-10-09 15:53:55,279 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 15:53:55,299 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:53:55,326 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:53:57,384 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 15:53:57,397 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 15:54:09,939 - BasePage.py:[394] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME!
+2026-10-09 15:54:22,261 - test_LoginAndProfile.py:[460] - [INFO] - TC['check user able to click "save" and "cancel "option" from new phone number OSD.']
+2026-10-09 15:54:24,286 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:54:24,313 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:54:44,826 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:54:46,935 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:54:46,971 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:54:47,035 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:54:49,664 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:54:49,709 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 15:54:49,732 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 15:54:49,776 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 8871838522
+2026-10-09 15:54:49,791 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:54:49,813 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:54:51,851 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:54:52,273 - BasePage.py:[215] - [WARNING] - Attempt 1: Exception occurred while clicking - Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a0929d55+5a55]
+	chromedriver!(No symbol) [0x7ff6a084f540]
+	chromedriver!(No symbol) [0x7ff6a06745fd]
+	chromedriver!(No symbol) [0x7ff6a067c6e1]
+	chromedriver!(No symbol) [0x7ff6a067f625]
+	chromedriver!(No symbol) [0x7ff6a067f6ef]
+	chromedriver!(No symbol) [0x7ff6a06d77aa]
+	chromedriver!(No symbol) [0x7ff6a06d567a]
+	chromedriver!(No symbol) [0x7ff6a06d29b7]
+	chromedriver!(No symbol) [0x7ff6a06d1880]
+	chromedriver!(No symbol) [0x7ff6a06c3828]
+	chromedriver!(No symbol) [0x7ff6a06f90ea]
+	chromedriver!(No symbol) [0x7ff6a06c30a6]
+	chromedriver!(No symbol) [0x7ff6a071fcd9]
+	chromedriver!(No symbol) [0x7ff6a06c1a12]
+	chromedriver!(No symbol) [0x7ff6a06c2823]
+	chromedriver!GetHandleVerifier [0x7ff6a0d404b1+41c1b1]
+	chromedriver!GetHandleVerifier [0x7ff6a0d6e26b+449f6b]
+	chromedriver!GetHandleVerifier [0x7ff6a0d6274e+43e44e]
+	chromedriver!GetHandleVerifier [0x7ff6a0a232fe+feffe]
+	chromedriver!(No symbol) [0x7ff6a085cb55]
+	chromedriver!(No symbol) [0x7ff6a0857f64]
+	chromedriver!(No symbol) [0x7ff6a08580f4]
+	chromedriver!(No symbol) [0x7ff6a0842e4c]
+	KERNEL32!BaseThreadInitThunk [0x7fff10bacdf7+17]
+	ntdll!RtlUserThreadStart [0x7fff1183ee4c+2c]
+. Retrying...
+2026-10-09 15:54:55,302 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:54:55,361 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:54:58,332 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 15:54:58,355 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 15:55:00,369 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 15:55:00,371 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 15:55:06,684 - test_LoginAndProfile.py:[477] - [INFO] - TC['verify user able to close the new phone number OSD by clicking "X"']
+2026-10-09 15:55:08,712 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:55:08,743 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:55:28,768 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:55:30,328 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:55:30,350 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 15:55:30,392 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 15:55:32,400 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_X_BTN_XPATH is clickable
+2026-10-09 15:55:32,424 - BasePage.py:[247] - [INFO] - Clicked on Element O_PHONE_NUM_X_BTN_XPATH
+2026-10-09 15:55:34,434 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 15:55:34,450 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 15:55:39,457 - test_LoginAndProfile.py:[492] - [INFO] - TC['Check user able to update the password with two different password in two different field and observe.']
+2026-10-09 15:55:41,488 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:55:41,509 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:56:01,533 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:56:04,553 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:56:04,587 - BasePage.py:[480] - [INFO] - Element O_EDIT_PASSWORD_BTN_XPATH is clickable
+2026-10-09 15:56:04,634 - BasePage.py:[212] - [INFO] - Clicking on Element O_EDIT_PASSWORD_BTN_XPATH
+2026-10-09 15:56:07,623 - BasePage.py:[450] - [INFO] - Element N_Current_Password_Field_XPATH is visible
+2026-10-09 15:56:07,668 - BasePage.py:[92] - [INFO] - Typed in to an Element : N_Current_Password_Field_XPATH Value : Jio@222333
+2026-10-09 15:56:07,686 - BasePage.py:[450] - [INFO] - Element O_NEW_PASS_XPATH is visible
+2026-10-09 15:56:07,752 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_NEW_PASS_XPATH Value : Tgehrn@8584
+2026-10-09 15:56:07,769 - BasePage.py:[450] - [INFO] - Element O_NEW_PASS_Conf_XPATH is visible
+2026-10-09 15:56:07,802 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_NEW_PASS_Conf_XPATH Value : Teflkjfj@359
+2026-10-09 15:56:07,822 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:56:07,835 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:56:07,853 - BasePage.py:[392] - [INFO] - Element O_alert_XPATH is visible
+2026-10-09 15:56:07,869 - BasePage.py:[166] - [INFO] - Text of Element O_alert_XPATH is 
+2026-10-09 15:56:14,153 - test_LoginAndProfile.py:[503] - [INFO] - TC['verify user able to close the new passwordr OSD by clicking "X"']
+2026-10-09 15:56:16,174 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:56:16,199 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:56:36,281 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:56:38,238 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:56:38,267 - BasePage.py:[480] - [INFO] - Element O_EDIT_PASSWORD_BTN_XPATH is clickable
+2026-10-09 15:56:38,315 - BasePage.py:[212] - [INFO] - Clicking on Element O_EDIT_PASSWORD_BTN_XPATH
+2026-10-09 15:56:40,338 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_X_BTN_XPATH is clickable
+2026-10-09 15:56:40,369 - BasePage.py:[247] - [INFO] - Clicked on Element O_PHONE_NUM_X_BTN_XPATH
+2026-10-09 15:56:42,385 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 15:56:42,409 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 15:56:49,408 - test_LoginAndProfile.py:[517] - [INFO] - TC['Verify user able to select the view service plan from profile.']
+2026-10-09 15:56:49,434 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:56:49,453 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:57:09,973 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:57:10,003 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_SERVICE_PLAN_XPATH
+2026-10-09 15:57:15,005 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/profile/plan
+2026-10-09 15:57:15,021 - BasePage.py:[392] - [INFO] - Element O_SERVICE_PLAN_TEXT_XPATH is visible
+2026-10-09 15:57:15,037 - BasePage.py:[166] - [INFO] - Text of Element O_SERVICE_PLAN_TEXT_XPATH is Service Plan
+2026-10-09 15:57:22,171 - test_LoginAndProfile.py:[540] - [INFO] - TC['Verify user able to select the help option from profile icon.']
+2026-10-09 15:57:22,198 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:57:22,221 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:57:42,725 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:57:42,771 - BasePage.py:[247] - [INFO] - Clicked on Element O_HELP_XPATH
+2026-10-09 15:57:47,796 - BasePage.py:[506] - [INFO] - Current URL is : https://www.jiothings.com/jiosignage.html
+2026-10-09 15:57:55,100 - test_LoginAndProfile.py:[555] - [INFO] - TC['Verify user able to select the logout option from profile icon.']
+2026-10-09 15:57:55,154 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:57:55,177 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:58:15,206 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:58:15,228 - BasePage.py:[247] - [INFO] - Clicked on Element O_LOGOUT_XPATH
+2026-10-09 15:58:15,250 - BasePage.py:[480] - [INFO] - Element O_LOGOUT_OK_BTN_XPATH is clickable
+2026-10-09 15:58:15,263 - BasePage.py:[247] - [INFO] - Clicked on Element O_LOGOUT_OK_BTN_XPATH
+2026-10-09 15:58:15,264 - BasePage.py:[489] - [INFO] - Browser Refreshed
+2026-10-09 15:58:20,455 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 15:58:20,469 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 15:58:20,489 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 15:58:32,543 - test_LoginAndProfile.py:[610] - [INFO] - TC['check user able to update the user name.']
+2026-10-09 15:58:34,595 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:58:34,605 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:58:54,647 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:58:56,831 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:58:58,923 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:59:04,970 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:59:05,000 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 15:59:05,026 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:59:05,076 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account qbychr
+2026-10-09 15:59:07,085 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 15:59:07,098 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:59:07,111 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:59:09,112 - BasePage.py:[392] - [INFO] - Element O_PROFILE_USERNAME_XPATH is visible
+2026-10-09 15:59:11,456 - test_LoginAndProfile.py:[610] - [INFO] - TC['check user able to update the user name.']
+2026-10-09 15:59:13,485 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:59:13,512 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 15:59:33,969 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 15:59:36,282 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 15:59:38,363 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:59:44,088 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:59:44,111 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 15:59:44,123 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 15:59:44,147 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account dhfgwt
+2026-10-09 15:59:46,158 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 15:59:46,176 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 15:59:46,197 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 15:59:48,208 - BasePage.py:[392] - [INFO] - Element O_PROFILE_USERNAME_XPATH is visible
+2026-10-09 15:59:50,173 - test_LoginAndProfile.py:[633] - [INFO] - TC['check user able to update the phone number.']
+2026-10-09 15:59:52,200 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 15:59:52,226 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:00:12,280 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:00:15,165 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:00:15,187 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:00:15,237 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:00:17,841 - BasePage.py:[392] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:00:20,304 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:00:20,338 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:00:22,981 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:00:23,008 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 16:00:23,027 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:00:23,058 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 1645282504
+2026-10-09 16:00:23,081 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:00:23,091 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:00:27,361 - test_LoginAndProfile.py:[633] - [INFO] - TC['check user able to update the phone number.']
+2026-10-09 16:00:29,386 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:00:29,411 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:00:49,424 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:00:51,616 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:00:51,642 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:00:51,692 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:00:53,827 - BasePage.py:[392] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:00:56,283 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:00:56,324 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:00:58,899 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:00:58,928 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 16:00:58,954 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:00:59,000 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 2424711215
+2026-10-09 16:00:59,009 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:00:59,025 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:11:27,964 - test_LoginAndProfile.py:[51] - [INFO] - TC['Check that user is able to open Sign In Page']
+2026-10-09 16:11:31,482 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 16:11:31,516 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 16:11:31,532 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 16:11:31,886 - test_LoginAndProfile.py:[75] - [INFO] - TC['Verify the UI/UX of JioSignage page.']
+2026-10-09 16:11:35,125 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 16:11:35,140 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 16:11:35,162 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 16:11:35,183 - BasePage.py:[392] - [INFO] - Element O_LOGIN_TEXT_XPATH is visible
+2026-10-09 16:11:35,203 - BasePage.py:[166] - [INFO] - Text of Element O_LOGIN_TEXT_XPATH is Login
+2026-10-09 16:11:35,214 - BasePage.py:[392] - [INFO] - Element O_EMAIL_TEXT_XPATH is visible
+2026-10-09 16:11:35,234 - BasePage.py:[166] - [INFO] - Text of Element O_EMAIL_TEXT_XPATH is Email address
+2026-10-09 16:11:35,253 - BasePage.py:[392] - [INFO] - Element O_PASSWORD_TEXT_XPATH is visible
+2026-10-09 16:11:35,271 - BasePage.py:[166] - [INFO] - Text of Element O_PASSWORD_TEXT_XPATH is Password
+2026-10-09 16:11:35,286 - BasePage.py:[392] - [INFO] - Element O_GetOTP_BTN_XPATH is visible
+2026-10-09 16:11:35,306 - BasePage.py:[166] - [INFO] - Text of Element O_GetOTP_BTN_XPATH is Get OTP
+2026-10-09 16:11:35,322 - BasePage.py:[392] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:11:35,342 - BasePage.py:[279] - [INFO] - O_ENTER_EMAIL_XPATH is Displayed : True
+2026-10-09 16:11:35,356 - BasePage.py:[392] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:11:35,372 - BasePage.py:[279] - [INFO] - O_ENTER_PASSWORD_XPATH is Displayed : True
+2026-10-09 16:11:35,897 - test_LoginAndProfile.py:[116] - [INFO] - TC['Verify user able to see the JioSignage logo in JioSignage login page.']
+2026-10-09 16:11:39,217 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 16:11:39,240 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 16:11:39,249 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 16:11:39,547 - test_LoginAndProfile.py:[140] - [INFO] - TC['Check user able to enter any text in Email address field.']
+2026-10-09 16:11:39,757 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:11:39,810 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : HSB3h0@gmail.com
+2026-10-09 16:11:51,312 - test_LoginAndProfile.py:[183] - [INFO] - TC['Check user able to enter the text in Password field.']
+2026-10-09 16:11:51,625 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:11:51,674 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : VMEc3CI5
+2026-10-09 16:12:03,143 - test_LoginAndProfile.py:[227] - [INFO] - TC['Verify user is able to click password show icon in JioSignage login page.']
+2026-10-09 16:12:03,541 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:12:03,592 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : vKj93nvT
+2026-10-09 16:12:03,608 - BasePage.py:[480] - [INFO] - Element O_SHOW_PASSWORD_BTN_XPATH is clickable
+2026-10-09 16:12:03,624 - BasePage.py:[247] - [INFO] - Clicked on Element O_SHOW_PASSWORD_BTN_XPATH
+2026-10-09 16:12:15,512 - test_LoginAndProfile.py:[269] - [INFO] - TC['Verify user able to select the remember me option in JioSignage page.']
+2026-10-09 16:12:15,895 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:12:15,947 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : j5VKIk@gmail.com
+2026-10-09 16:12:15,958 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:12:16,004 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : yoYTn8DH
+2026-10-09 16:12:16,025 - BasePage.py:[480] - [INFO] - Element O_REMEMBER_ME_BTN_XPATH is clickable
+2026-10-09 16:12:16,042 - BasePage.py:[247] - [INFO] - Clicked on Element O_REMEMBER_ME_BTN_XPATH
+2026-10-09 16:12:16,059 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 16:12:16,091 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 16:12:28,775 - test_LoginAndProfile.py:[318] - [INFO] - TC['Verify user able to login using valid credentials in JioSignage login page.']
+2026-10-09 16:12:31,779 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/dashboard
+2026-10-09 16:12:40,560 - test_LoginAndProfile.py:[338] - [INFO] - TC['Verify user able to click back button to redirect previous page from OTP page.']
+2026-10-09 16:12:40,927 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:12:40,962 - BasePage.py:[111] - [INFO] - Clear data from locator : O_ENTER_EMAIL_XPATH
+2026-10-09 16:12:40,976 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:12:41,030 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : akash.samal@ril.com
+2026-10-09 16:12:41,042 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:12:41,084 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : Test@321
+2026-10-09 16:12:41,093 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 16:12:41,126 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 16:12:49,158 - BasePage.py:[506] - [INFO] - Current URL is : data:,
+2026-10-09 16:12:58,685 - test_LoginAndProfile.py:[338] - [INFO] - TC['Verify user able to click back button to redirect previous page from OTP page.']
+2026-10-09 16:12:59,016 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:12:59,043 - BasePage.py:[111] - [INFO] - Clear data from locator : O_ENTER_EMAIL_XPATH
+2026-10-09 16:12:59,059 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:12:59,108 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : akash.samal@ril.com
+2026-10-09 16:12:59,125 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:12:59,159 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : Test@321
+2026-10-09 16:12:59,179 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 16:12:59,206 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 16:13:07,235 - BasePage.py:[506] - [INFO] - Current URL is : data:,
+2026-10-09 16:13:17,231 - test_LoginAndProfile.py:[390] - [INFO] - TC['check user able to select the view profile option.']
+2026-10-09 16:13:19,259 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:13:19,274 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:13:39,760 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:13:42,299 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:13:45,306 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/profile/user_details
+2026-10-09 16:13:52,428 - test_LoginAndProfile.py:[443] - [INFO] - TC['check user able to click "save" and "cancel "option" from user name OSD.']
+2026-10-09 16:13:54,456 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:13:54,477 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:14:14,971 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:14:17,169 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:14:19,442 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:14:19,496 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 16:14:19,510 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:14:19,581 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account hxpias
+2026-10-09 16:14:21,599 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 16:14:21,612 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:14:21,632 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:14:23,694 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 16:14:23,710 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 16:14:36,290 - BasePage.py:[394] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME!
+2026-10-09 16:14:48,697 - test_LoginAndProfile.py:[443] - [INFO] - TC['check user able to click "save" and "cancel "option" from user name OSD.']
+2026-10-09 16:14:50,716 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:14:50,748 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:15:11,257 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:15:13,506 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:15:16,201 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:15:16,230 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 16:15:16,246 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:15:16,299 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account myiycn
+2026-10-09 16:15:18,315 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 16:15:18,330 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:15:18,362 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:15:20,429 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 16:15:20,446 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 16:15:33,003 - BasePage.py:[394] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME!
+2026-10-09 16:15:45,353 - test_LoginAndProfile.py:[460] - [INFO] - TC['check user able to click "save" and "cancel "option" from new phone number OSD.']
+2026-10-09 16:15:47,377 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:15:47,400 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:16:07,424 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:16:09,833 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:16:09,866 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:16:09,911 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:16:12,028 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:16:12,063 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 16:16:12,081 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:16:12,118 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 1931039818
+2026-10-09 16:16:12,130 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:16:12,148 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:16:14,193 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:16:15,281 - BasePage.py:[215] - [WARNING] - Attempt 1: Exception occurred while clicking - Message: element click intercepted: Element <button type="button" class="btn edit-pen login-pass" id="btn_toogle" target-field="userPassword">...</button> is not clickable at point (1360, 382). Other element would receive the click: <div class="modal fade" id="shareRecipeModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="newItemRemoteModalLabel" data-controller="remote-modal" data-action="turbo:before-render@document-&gt;remote-modal#hideBeforeRender turbo:before-cache@document-&gt;remote-modal#beforeCache" aria-modal="true" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=154.0.8037.98)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a0929d55+5a55]
+	chromedriver!(No symbol) [0x7ff6a084f540]
+	chromedriver!(No symbol) [0x7ff6a06745fd]
+	chromedriver!(No symbol) [0x7ff6a06d7a73]
+	chromedriver!(No symbol) [0x7ff6a06d567a]
+	chromedriver!(No symbol) [0x7ff6a06d29b7]
+	chromedriver!(No symbol) [0x7ff6a06d1880]
+	chromedriver!(No symbol) [0x7ff6a06c3828]
+	chromedriver!(No symbol) [0x7ff6a06f90ea]
+	chromedriver!(No symbol) [0x7ff6a06c30a6]
+	chromedriver!(No symbol) [0x7ff6a071fcd9]
+	chromedriver!(No symbol) [0x7ff6a06c1a12]
+	chromedriver!(No symbol) [0x7ff6a06c2823]
+	chromedriver!GetHandleVerifier [0x7ff6a0d404b1+41c1b1]
+	chromedriver!GetHandleVerifier [0x7ff6a0d6e26b+449f6b]
+	chromedriver!GetHandleVerifier [0x7ff6a0d6274e+43e44e]
+	chromedriver!GetHandleVerifier [0x7ff6a0a232fe+feffe]
+	chromedriver!(No symbol) [0x7ff6a085cb55]
+	chromedriver!(No symbol) [0x7ff6a0857f64]
+	chromedriver!(No symbol) [0x7ff6a08580f4]
+	chromedriver!(No symbol) [0x7ff6a0842e4c]
+	KERNEL32!BaseThreadInitThunk [0x7fff10bacdf7+17]
+	ntdll!RtlUserThreadStart [0x7fff1183ee4c+2c]
+. Retrying...
+2026-10-09 16:16:18,294 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:16:18,343 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:16:21,646 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 16:16:21,661 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 16:16:23,671 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 16:16:23,687 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 16:16:30,380 - test_LoginAndProfile.py:[477] - [INFO] - TC['verify user able to close the new phone number OSD by clicking "X"']
+2026-10-09 16:16:32,412 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:16:32,431 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:16:52,923 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:16:55,166 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:16:55,193 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:16:55,249 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:16:58,148 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_X_BTN_XPATH is clickable
+2026-10-09 16:16:58,167 - BasePage.py:[247] - [INFO] - Clicked on Element O_PHONE_NUM_X_BTN_XPATH
+2026-10-09 16:17:00,188 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 16:17:00,204 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 16:17:06,434 - test_LoginAndProfile.py:[492] - [INFO] - TC['Check user able to update the password with two different password in two different field and observe.']
+2026-10-09 16:17:08,464 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:17:08,482 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:17:28,993 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:17:31,183 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:17:31,205 - BasePage.py:[480] - [INFO] - Element O_EDIT_PASSWORD_BTN_XPATH is clickable
+2026-10-09 16:17:31,243 - BasePage.py:[212] - [INFO] - Clicking on Element O_EDIT_PASSWORD_BTN_XPATH
+2026-10-09 16:17:34,214 - BasePage.py:[450] - [INFO] - Element N_Current_Password_Field_XPATH is visible
+2026-10-09 16:17:34,252 - BasePage.py:[92] - [INFO] - Typed in to an Element : N_Current_Password_Field_XPATH Value : Jio@222333
+2026-10-09 16:17:34,265 - BasePage.py:[450] - [INFO] - Element O_NEW_PASS_XPATH is visible
+2026-10-09 16:17:34,315 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_NEW_PASS_XPATH Value : Tgehrn@8584
+2026-10-09 16:17:34,332 - BasePage.py:[450] - [INFO] - Element O_NEW_PASS_Conf_XPATH is visible
+2026-10-09 16:17:34,365 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_NEW_PASS_Conf_XPATH Value : Teflkjfj@359
+2026-10-09 16:17:34,399 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:17:34,415 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:17:34,433 - BasePage.py:[392] - [INFO] - Element O_alert_XPATH is visible
+2026-10-09 16:17:34,453 - BasePage.py:[166] - [INFO] - Text of Element O_alert_XPATH is 
+2026-10-09 16:17:41,075 - test_LoginAndProfile.py:[503] - [INFO] - TC['verify user able to close the new passwordr OSD by clicking "X"']
+2026-10-09 16:17:43,100 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:17:43,127 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:18:03,630 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:18:05,954 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:18:05,976 - BasePage.py:[480] - [INFO] - Element O_EDIT_PASSWORD_BTN_XPATH is clickable
+2026-10-09 16:18:06,015 - BasePage.py:[212] - [INFO] - Clicking on Element O_EDIT_PASSWORD_BTN_XPATH
+2026-10-09 16:18:09,014 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_X_BTN_XPATH is clickable
+2026-10-09 16:18:09,034 - BasePage.py:[247] - [INFO] - Clicked on Element O_PHONE_NUM_X_BTN_XPATH
+2026-10-09 16:18:11,048 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 16:18:11,064 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 16:18:18,080 - test_LoginAndProfile.py:[517] - [INFO] - TC['Verify user able to select the view service plan from profile.']
+2026-10-09 16:18:18,109 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:18:18,133 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:18:38,638 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:18:38,664 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_SERVICE_PLAN_XPATH
+2026-10-09 16:18:43,670 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/profile/plan
+2026-10-09 16:18:43,686 - BasePage.py:[392] - [INFO] - Element O_SERVICE_PLAN_TEXT_XPATH is visible
+2026-10-09 16:18:43,690 - BasePage.py:[166] - [INFO] - Text of Element O_SERVICE_PLAN_TEXT_XPATH is Service Plan
+2026-10-09 16:18:51,175 - test_LoginAndProfile.py:[540] - [INFO] - TC['Verify user able to select the help option from profile icon.']
+2026-10-09 16:18:51,214 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:18:51,228 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:19:11,749 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:19:11,791 - BasePage.py:[247] - [INFO] - Clicked on Element O_HELP_XPATH
+2026-10-09 16:19:16,810 - BasePage.py:[506] - [INFO] - Current URL is : https://www.jiothings.com/jiosignage.html
+2026-10-09 16:19:24,227 - test_LoginAndProfile.py:[555] - [INFO] - TC['Verify user able to select the logout option from profile icon.']
+2026-10-09 16:19:24,282 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:19:24,297 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:19:44,336 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:19:44,361 - BasePage.py:[247] - [INFO] - Clicked on Element O_LOGOUT_XPATH
+2026-10-09 16:19:44,381 - BasePage.py:[480] - [INFO] - Element O_LOGOUT_OK_BTN_XPATH is clickable
+2026-10-09 16:19:44,397 - BasePage.py:[247] - [INFO] - Clicked on Element O_LOGOUT_OK_BTN_XPATH
+2026-10-09 16:19:44,399 - BasePage.py:[489] - [INFO] - Browser Refreshed
+2026-10-09 16:19:49,755 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 16:19:49,775 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 16:19:49,792 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 16:20:01,107 - test_LoginAndProfile.py:[610] - [INFO] - TC['check user able to update the user name.']
+2026-10-09 16:20:03,130 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:20:03,155 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:20:23,211 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:20:25,245 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:20:27,285 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:20:32,254 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:20:32,284 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 16:20:32,308 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:20:32,357 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account zjdjgt
+2026-10-09 16:20:34,367 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 16:20:34,401 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:20:34,419 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:20:36,436 - BasePage.py:[392] - [INFO] - Element O_PROFILE_USERNAME_XPATH is visible
+2026-10-09 16:20:40,484 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:20:40,502 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:21:01,012 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:21:03,595 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:21:07,774 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:21:08,300 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:21:08,333 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 16:21:08,347 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:21:08,387 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account myiycn
+2026-10-09 16:21:10,405 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 16:21:10,422 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:21:10,443 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:21:15,874 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:21:22,389 - test_LoginAndProfile.py:[633] - [INFO] - TC['check user able to update the phone number.']
+2026-10-09 16:21:24,418 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:21:24,439 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:21:44,953 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:21:47,310 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:21:47,332 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:21:47,373 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:21:49,754 - BasePage.py:[392] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:21:52,017 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:21:52,060 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:21:54,908 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:21:54,943 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 16:21:54,968 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:21:55,005 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 8534024470
+2026-10-09 16:21:55,021 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:21:55,057 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:21:59,349 - test_LoginAndProfile.py:[633] - [INFO] - TC['check user able to update the phone number.']
+2026-10-09 16:22:01,392 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:22:01,421 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:22:21,937 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:22:24,216 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:22:24,234 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:22:24,272 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:22:26,416 - BasePage.py:[392] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:22:28,526 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:22:28,569 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:22:31,293 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:22:31,323 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 16:22:31,341 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:22:31,378 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 9549187767
+2026-10-09 16:22:31,405 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:22:31,426 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:43:34,702 - test_LoginAndProfile.py:[51] - [INFO] - TC['Check that user is able to open Sign In Page']
+2026-10-09 16:43:38,005 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 16:43:38,045 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 16:43:38,066 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 16:43:38,464 - test_LoginAndProfile.py:[75] - [INFO] - TC['Verify the UI/UX of JioSignage page.']
+2026-10-09 16:43:41,694 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 16:43:41,717 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 16:43:41,740 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 16:43:41,747 - BasePage.py:[392] - [INFO] - Element O_LOGIN_TEXT_XPATH is visible
+2026-10-09 16:43:41,779 - BasePage.py:[166] - [INFO] - Text of Element O_LOGIN_TEXT_XPATH is Login
+2026-10-09 16:43:41,794 - BasePage.py:[392] - [INFO] - Element O_EMAIL_TEXT_XPATH is visible
+2026-10-09 16:43:41,823 - BasePage.py:[166] - [INFO] - Text of Element O_EMAIL_TEXT_XPATH is Email address
+2026-10-09 16:43:41,841 - BasePage.py:[392] - [INFO] - Element O_PASSWORD_TEXT_XPATH is visible
+2026-10-09 16:43:41,862 - BasePage.py:[166] - [INFO] - Text of Element O_PASSWORD_TEXT_XPATH is Password
+2026-10-09 16:43:41,880 - BasePage.py:[392] - [INFO] - Element O_GetOTP_BTN_XPATH is visible
+2026-10-09 16:43:41,901 - BasePage.py:[166] - [INFO] - Text of Element O_GetOTP_BTN_XPATH is Get OTP
+2026-10-09 16:43:41,916 - BasePage.py:[392] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:43:41,937 - BasePage.py:[279] - [INFO] - O_ENTER_EMAIL_XPATH is Displayed : True
+2026-10-09 16:43:41,953 - BasePage.py:[392] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:43:41,974 - BasePage.py:[279] - [INFO] - O_ENTER_PASSWORD_XPATH is Displayed : True
+2026-10-09 16:43:42,379 - test_LoginAndProfile.py:[116] - [INFO] - TC['Verify user able to see the JioSignage logo in JioSignage login page.']
+2026-10-09 16:43:45,718 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 16:43:45,741 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 16:43:45,750 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 16:43:46,068 - test_LoginAndProfile.py:[140] - [INFO] - TC['Check user able to enter any text in Email address field.']
+2026-10-09 16:43:46,667 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:43:46,717 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : mRUGl7@gmail.com
+2026-10-09 16:43:58,678 - test_LoginAndProfile.py:[183] - [INFO] - TC['Check user able to enter the text in Password field.']
+2026-10-09 16:43:59,004 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:43:59,034 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : N9gjVX7A
+2026-10-09 16:44:10,054 - test_LoginAndProfile.py:[227] - [INFO] - TC['Verify user is able to click password show icon in JioSignage login page.']
+2026-10-09 16:44:10,351 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:44:10,384 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : 2mDy4Na4
+2026-10-09 16:44:10,417 - BasePage.py:[480] - [INFO] - Element O_SHOW_PASSWORD_BTN_XPATH is clickable
+2026-10-09 16:44:10,434 - BasePage.py:[247] - [INFO] - Clicked on Element O_SHOW_PASSWORD_BTN_XPATH
+2026-10-09 16:44:21,641 - test_LoginAndProfile.py:[269] - [INFO] - TC['Verify user able to select the remember me option in JioSignage page.']
+2026-10-09 16:44:21,984 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:44:22,017 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : khjqlC@gmail.com
+2026-10-09 16:44:22,034 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:44:22,068 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : IDGSnu4x
+2026-10-09 16:44:22,091 - BasePage.py:[480] - [INFO] - Element O_REMEMBER_ME_BTN_XPATH is clickable
+2026-10-09 16:44:22,101 - BasePage.py:[247] - [INFO] - Clicked on Element O_REMEMBER_ME_BTN_XPATH
+2026-10-09 16:44:22,118 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 16:44:22,145 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 16:44:34,535 - test_LoginAndProfile.py:[318] - [INFO] - TC['Verify user able to login using valid credentials in JioSignage login page.']
+2026-10-09 16:44:37,535 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/dashboard
+2026-10-09 16:44:45,694 - test_LoginAndProfile.py:[338] - [INFO] - TC['Verify user able to click back button to redirect previous page from OTP page.']
+2026-10-09 16:44:46,054 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:44:46,085 - BasePage.py:[111] - [INFO] - Clear data from locator : O_ENTER_EMAIL_XPATH
+2026-10-09 16:44:46,103 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:44:46,155 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : akash.samal@ril.com
+2026-10-09 16:44:46,169 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:44:46,212 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : Test@321
+2026-10-09 16:44:46,219 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 16:44:46,248 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 16:44:54,278 - BasePage.py:[506] - [INFO] - Current URL is : data:,
+2026-10-09 16:45:03,685 - test_LoginAndProfile.py:[338] - [INFO] - TC['Verify user able to click back button to redirect previous page from OTP page.']
+2026-10-09 16:45:04,018 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:45:04,052 - BasePage.py:[111] - [INFO] - Clear data from locator : O_ENTER_EMAIL_XPATH
+2026-10-09 16:45:04,069 - BasePage.py:[450] - [INFO] - Element O_ENTER_EMAIL_XPATH is visible
+2026-10-09 16:45:04,119 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_EMAIL_XPATH Value : akash.samal@ril.com
+2026-10-09 16:45:04,135 - BasePage.py:[450] - [INFO] - Element O_ENTER_PASSWORD_XPATH is visible
+2026-10-09 16:45:04,186 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : Test@321
+2026-10-09 16:45:04,203 - BasePage.py:[480] - [INFO] - Element O_GET_OTP_XPATH is clickable
+2026-10-09 16:45:04,233 - BasePage.py:[247] - [INFO] - Clicked on Element O_GET_OTP_XPATH
+2026-10-09 16:45:12,273 - BasePage.py:[506] - [INFO] - Current URL is : data:,
+2026-10-09 16:45:20,886 - test_LoginAndProfile.py:[390] - [INFO] - TC['check user able to select the view profile option.']
+2026-10-09 16:45:22,919 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:45:22,935 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:45:43,006 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:45:44,571 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:45:47,573 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/profile/user_details
+2026-10-09 16:45:53,107 - test_LoginAndProfile.py:[443] - [INFO] - TC['check user able to click "save" and "cancel "option" from user name OSD.']
+2026-10-09 16:45:55,132 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:45:55,151 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:46:15,203 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:46:17,405 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:46:20,074 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:46:20,110 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 16:46:20,123 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:46:20,163 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account fvkmiu
+2026-10-09 16:46:22,189 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 16:46:22,205 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:46:22,231 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:46:24,287 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 16:46:24,304 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 16:46:36,878 - BasePage.py:[394] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME!
+2026-10-09 16:46:49,157 - test_LoginAndProfile.py:[443] - [INFO] - TC['check user able to click "save" and "cancel "option" from user name OSD.']
+2026-10-09 16:46:51,188 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:46:51,214 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:47:11,629 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:47:13,826 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:47:16,920 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:47:16,948 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 16:47:16,959 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:47:16,988 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account oxdppr
+2026-10-09 16:47:18,994 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 16:47:19,009 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:47:19,024 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:47:21,059 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 16:47:21,072 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 16:47:33,634 - BasePage.py:[394] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME!
+2026-10-09 16:47:46,066 - test_LoginAndProfile.py:[460] - [INFO] - TC['check user able to click "save" and "cancel "option" from new phone number OSD.']
+2026-10-09 16:47:48,076 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:47:48,101 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:48:08,524 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:48:10,702 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:48:10,721 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:48:10,762 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:48:13,847 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:48:13,874 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 16:48:13,874 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:48:13,913 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 2418494710
+2026-10-09 16:48:13,923 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:48:13,941 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:48:15,968 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:48:16,696 - BasePage.py:[215] - [WARNING] - Attempt 1: Exception occurred while clicking - Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7fe079d55+5a55]
+	chromedriver!(No symbol) [0x7ff7fdf9f540]
+	chromedriver!(No symbol) [0x7ff7fddc45fd]
+	chromedriver!(No symbol) [0x7ff7fddcc6e1]
+	chromedriver!(No symbol) [0x7ff7fddcf625]
+	chromedriver!(No symbol) [0x7ff7fddcf6ef]
+	chromedriver!(No symbol) [0x7ff7fde277aa]
+	chromedriver!(No symbol) [0x7ff7fde2567a]
+	chromedriver!(No symbol) [0x7ff7fde229b7]
+	chromedriver!(No symbol) [0x7ff7fde21880]
+	chromedriver!(No symbol) [0x7ff7fde13828]
+	chromedriver!(No symbol) [0x7ff7fde490ea]
+	chromedriver!(No symbol) [0x7ff7fde130a6]
+	chromedriver!(No symbol) [0x7ff7fde6fcd9]
+	chromedriver!(No symbol) [0x7ff7fde11a12]
+	chromedriver!(No symbol) [0x7ff7fde12823]
+	chromedriver!GetHandleVerifier [0x7ff7fe4904b1+41c1b1]
+	chromedriver!GetHandleVerifier [0x7ff7fe4be26b+449f6b]
+	chromedriver!GetHandleVerifier [0x7ff7fe4b274e+43e44e]
+	chromedriver!GetHandleVerifier [0x7ff7fe1732fe+feffe]
+	chromedriver!(No symbol) [0x7ff7fdfacb55]
+	chromedriver!(No symbol) [0x7ff7fdfa7f64]
+	chromedriver!(No symbol) [0x7ff7fdfa80f4]
+	chromedriver!(No symbol) [0x7ff7fdf92e4c]
+	KERNEL32!BaseThreadInitThunk [0x7ff90ed2cdf7+17]
+	ntdll!RtlUserThreadStart [0x7ff910e3ee4c+2c]
+. Retrying...
+2026-10-09 16:48:19,713 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:48:19,747 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:48:22,337 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+2026-10-09 16:48:22,358 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+2026-10-09 16:48:24,359 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 16:48:24,371 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 16:48:30,608 - test_LoginAndProfile.py:[477] - [INFO] - TC['verify user able to close the new phone number OSD by clicking "X"']
+2026-10-09 16:48:32,620 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:48:32,644 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:48:53,083 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:48:55,366 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:48:55,382 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:48:55,408 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:48:58,105 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_X_BTN_XPATH is clickable
+2026-10-09 16:48:58,123 - BasePage.py:[247] - [INFO] - Clicked on Element O_PHONE_NUM_X_BTN_XPATH
+2026-10-09 16:49:00,131 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 16:49:00,139 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 16:49:06,909 - test_LoginAndProfile.py:[492] - [INFO] - TC['Check user able to update the password with two different password in two different field and observe.']
+2026-10-09 16:49:08,922 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:49:08,944 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:49:29,352 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:49:31,612 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:49:31,634 - BasePage.py:[480] - [INFO] - Element O_EDIT_PASSWORD_BTN_XPATH is clickable
+2026-10-09 16:49:31,670 - BasePage.py:[212] - [INFO] - Clicking on Element O_EDIT_PASSWORD_BTN_XPATH
+2026-10-09 16:49:34,389 - BasePage.py:[450] - [INFO] - Element N_Current_Password_Field_XPATH is visible
+2026-10-09 16:49:34,428 - BasePage.py:[92] - [INFO] - Typed in to an Element : N_Current_Password_Field_XPATH Value : Jio@222333
+2026-10-09 16:49:34,441 - BasePage.py:[450] - [INFO] - Element O_NEW_PASS_XPATH is visible
+2026-10-09 16:49:34,469 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_NEW_PASS_XPATH Value : Tgehrn@8584
+2026-10-09 16:49:34,482 - BasePage.py:[450] - [INFO] - Element O_NEW_PASS_Conf_XPATH is visible
+2026-10-09 16:49:34,509 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_NEW_PASS_Conf_XPATH Value : Teflkjfj@359
+2026-10-09 16:49:34,525 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:49:34,525 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:49:34,543 - BasePage.py:[392] - [INFO] - Element O_alert_XPATH is visible
+2026-10-09 16:49:34,561 - BasePage.py:[166] - [INFO] - Text of Element O_alert_XPATH is 
+2026-10-09 16:49:41,320 - test_LoginAndProfile.py:[503] - [INFO] - TC['verify user able to close the new passwordr OSD by clicking "X"']
+2026-10-09 16:49:43,331 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:49:43,368 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:50:03,792 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:50:06,315 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:50:06,334 - BasePage.py:[480] - [INFO] - Element O_EDIT_PASSWORD_BTN_XPATH is clickable
+2026-10-09 16:50:06,364 - BasePage.py:[212] - [INFO] - Clicking on Element O_EDIT_PASSWORD_BTN_XPATH
+2026-10-09 16:50:09,273 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_X_BTN_XPATH is clickable
+2026-10-09 16:50:09,289 - BasePage.py:[247] - [INFO] - Clicked on Element O_PHONE_NUM_X_BTN_XPATH
+2026-10-09 16:50:11,298 - BasePage.py:[392] - [INFO] - Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+2026-10-09 16:50:11,307 - BasePage.py:[279] - [INFO] - O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False
+2026-10-09 16:50:17,260 - test_LoginAndProfile.py:[517] - [INFO] - TC['Verify user able to select the view service plan from profile.']
+2026-10-09 16:50:17,275 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:50:17,287 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:50:37,746 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:50:37,765 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_SERVICE_PLAN_XPATH
+2026-10-09 16:50:42,766 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/v2/profile/plan
+2026-10-09 16:50:42,782 - BasePage.py:[392] - [INFO] - Element O_SERVICE_PLAN_TEXT_XPATH is visible
+2026-10-09 16:50:42,790 - BasePage.py:[166] - [INFO] - Text of Element O_SERVICE_PLAN_TEXT_XPATH is Service Plan
+2026-10-09 16:50:50,614 - test_LoginAndProfile.py:[540] - [INFO] - TC['Verify user able to select the help option from profile icon.']
+2026-10-09 16:50:50,642 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:50:50,655 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:51:11,106 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:51:11,160 - BasePage.py:[247] - [INFO] - Clicked on Element O_HELP_XPATH
+2026-10-09 16:51:16,181 - BasePage.py:[506] - [INFO] - Current URL is : https://www.jiothings.com/jiosignage.html
+2026-10-09 16:51:23,900 - test_LoginAndProfile.py:[555] - [INFO] - TC['Verify user able to select the logout option from profile icon.']
+2026-10-09 16:51:23,943 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:51:23,975 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:51:44,394 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:51:44,411 - BasePage.py:[247] - [INFO] - Clicked on Element O_LOGOUT_XPATH
+2026-10-09 16:51:44,427 - BasePage.py:[480] - [INFO] - Element O_LOGOUT_OK_BTN_XPATH is clickable
+2026-10-09 16:51:44,439 - BasePage.py:[247] - [INFO] - Clicked on Element O_LOGOUT_OK_BTN_XPATH
+2026-10-09 16:51:44,439 - BasePage.py:[489] - [INFO] - Browser Refreshed
+2026-10-09 16:51:49,632 - BasePage.py:[506] - [INFO] - Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+2026-10-09 16:51:49,643 - BasePage.py:[392] - [INFO] - Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+2026-10-09 16:51:49,648 - BasePage.py:[279] - [INFO] - O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+2026-10-09 16:52:00,595 - test_LoginAndProfile.py:[610] - [INFO] - TC['check user able to update the user name.']
+2026-10-09 16:52:02,611 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:52:02,616 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:52:23,043 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:52:25,186 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:52:27,211 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:52:33,375 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:52:33,403 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 16:52:33,416 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:52:33,440 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account ggevfe
+2026-10-09 16:52:35,456 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 16:52:35,465 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:52:35,488 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:52:37,499 - BasePage.py:[392] - [INFO] - Element O_PROFILE_USERNAME_XPATH is visible
+2026-10-09 16:52:39,882 - test_LoginAndProfile.py:[610] - [INFO] - TC['check user able to update the user name.']
+2026-10-09 16:52:41,913 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:52:41,928 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:53:02,443 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:53:04,848 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:53:06,952 - BasePage.py:[392] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:53:12,838 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:53:12,869 - BasePage.py:[111] - [INFO] - Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+2026-10-09 16:53:12,893 - BasePage.py:[450] - [INFO] - Element O_USER_NAME_TEXTBOX_XPATH is visible
+2026-10-09 16:53:12,937 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account ipihxo
+2026-10-09 16:53:14,952 - BasePage.py:[392] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+2026-10-09 16:53:14,972 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:53:14,988 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:53:16,997 - BasePage.py:[392] - [INFO] - Element O_PROFILE_USERNAME_XPATH is visible
+2026-10-09 16:53:19,326 - test_LoginAndProfile.py:[633] - [INFO] - TC['check user able to update the phone number.']
+2026-10-09 16:53:21,341 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:53:21,364 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:53:41,828 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:53:43,946 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:53:43,964 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:53:44,000 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:53:46,131 - BasePage.py:[392] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:53:48,596 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:53:48,632 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:53:51,275 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:53:51,291 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 16:53:51,297 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:53:51,331 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 1814515719
+2026-10-09 16:53:51,335 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:53:51,347 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+2026-10-09 16:53:55,818 - test_LoginAndProfile.py:[633] - [INFO] - TC['check user able to update the phone number.']
+2026-10-09 16:53:57,834 - BasePage.py:[480] - [INFO] - Element O_PROFILE_ICON_XPATH is clickable
+2026-10-09 16:53:57,871 - BasePage.py:[247] - [INFO] - Clicked on Element O_PROFILE_ICON_XPATH
+2026-10-09 16:54:18,394 - BasePage.py:[482] - [INFO] - ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+2026-10-09 16:54:20,499 - BasePage.py:[247] - [INFO] - Clicked on Element O_VIEW_PROFILE_XPATH
+2026-10-09 16:54:20,515 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:54:20,548 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:54:22,940 - BasePage.py:[392] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:54:25,797 - BasePage.py:[480] - [INFO] - Element O_PHONE_NUM_BTN_XPATH is clickable
+2026-10-09 16:54:25,828 - BasePage.py:[212] - [INFO] - Clicking on Element O_PHONE_NUM_BTN_XPATH
+2026-10-09 16:54:28,713 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:54:28,734 - BasePage.py:[111] - [INFO] - Clear data from locator : O_PHONE_NUM_TEXTBOX_XPATH
+2026-10-09 16:54:28,734 - BasePage.py:[450] - [INFO] - Element O_PHONE_NUM_TEXTBOX_XPATH is visible
+2026-10-09 16:54:28,771 - BasePage.py:[92] - [INFO] - Typed in to an Element : O_PHONE_NUM_TEXTBOX_XPATH Value : 5617405560
+2026-10-09 16:54:28,781 - BasePage.py:[480] - [INFO] - Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+2026-10-09 16:54:28,781 - BasePage.py:[247] - [INFO] - Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH

@@ -1,0 +1,8 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:517 TC['Verify user able to select the view service plan from profile.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PROFILE_ICON_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_PROFILE_ICON_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:482 ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_VIEW_SERVICE_PLAN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:506 Current URL is : https://sit1.jiosignage.jio.com/v2/profile/plan
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_SERVICE_PLAN_TEXT_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:166 Text of Element O_SERVICE_PLAN_TEXT_XPATH is Service Plan

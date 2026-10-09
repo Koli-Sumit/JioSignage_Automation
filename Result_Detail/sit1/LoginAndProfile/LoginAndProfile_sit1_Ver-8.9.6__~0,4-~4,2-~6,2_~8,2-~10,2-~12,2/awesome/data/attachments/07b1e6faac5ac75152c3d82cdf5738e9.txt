@@ -1,0 +1,16 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:75 TC['Verify the UI/UX of JioSignage page.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:506 Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:279 O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_LOGIN_TEXT_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:166 Text of Element O_LOGIN_TEXT_XPATH is Login
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_EMAIL_TEXT_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:166 Text of Element O_EMAIL_TEXT_XPATH is Email address
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_PASSWORD_TEXT_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:166 Text of Element O_PASSWORD_TEXT_XPATH is Password
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_GetOTP_BTN_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:166 Text of Element O_GetOTP_BTN_XPATH is Get OTP
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_ENTER_EMAIL_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:279 O_ENTER_EMAIL_XPATH is Displayed : True
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_ENTER_PASSWORD_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:279 O_ENTER_PASSWORD_XPATH is Displayed : True

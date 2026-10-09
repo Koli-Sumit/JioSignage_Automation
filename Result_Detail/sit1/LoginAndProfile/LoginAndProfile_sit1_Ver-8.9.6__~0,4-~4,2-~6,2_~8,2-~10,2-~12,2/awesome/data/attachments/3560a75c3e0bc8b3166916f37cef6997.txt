@@ -1,0 +1,6 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:443 TC['check user able to click "save" and "cancel "option" from user name OSD.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PROFILE_ICON_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_PROFILE_ICON_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:482 ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_VIEW_PROFILE_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:452 ELEMENT NOT FOUND WITHIN GIVEN TIME!

@@ -1,0 +1,3 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:183 TC['Check user able to enter the text in Password field.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_ENTER_PASSWORD_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : N9gjVX7A

@@ -1,0 +1,30 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:443 TC['check user able to click "save" and "cancel "option" from user name OSD.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PROFILE_ICON_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_PROFILE_ICON_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:482 ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_VIEW_PROFILE_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_USER_NAME_TEXTBOX_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:111 Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_USER_NAME_TEXTBOX_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account fvkmiu
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:394 ELEMENT NOT FOUND WITHIN GIVEN TIME!
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:443 TC['check user able to click "save" and "cancel "option" from user name OSD.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PROFILE_ICON_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_PROFILE_ICON_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:482 ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_VIEW_PROFILE_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_USER_NAME_TEXTBOX_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:111 Clear data from locator : O_USER_NAME_TEXTBOX_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_USER_NAME_TEXTBOX_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_USER_NAME_TEXTBOX_XPATH Value : Test Account oxdppr
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_EDIT_UNAME_SAVE_BTN_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_EDIT_UNAME_CANCEL_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_EDIT_UNAME_CANCEL_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:394 ELEMENT NOT FOUND WITHIN GIVEN TIME!

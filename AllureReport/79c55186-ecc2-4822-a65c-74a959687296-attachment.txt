@@ -1,0 +1,17 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:492 TC['Check user able to update the password with two different password in two different field and observe.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PROFILE_ICON_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_PROFILE_ICON_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:482 ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_VIEW_PROFILE_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_EDIT_PASSWORD_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:212 Clicking on Element O_EDIT_PASSWORD_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element N_Current_Password_Field_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : N_Current_Password_Field_XPATH Value : Jio@222333
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_NEW_PASS_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_NEW_PASS_XPATH Value : Tgehrn@8584
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_NEW_PASS_Conf_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_NEW_PASS_Conf_XPATH Value : Teflkjfj@359
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_EDIT_UNAME_SAVE_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_EDIT_UNAME_SAVE_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_alert_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:166 Text of Element O_alert_XPATH is

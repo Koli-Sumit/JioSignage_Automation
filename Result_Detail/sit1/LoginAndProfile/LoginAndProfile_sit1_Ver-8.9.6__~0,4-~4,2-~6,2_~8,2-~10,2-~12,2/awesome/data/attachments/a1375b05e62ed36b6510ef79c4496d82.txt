@@ -1,0 +1,10 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:338 TC['Verify user able to click back button to redirect previous page from OTP page.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_ENTER_EMAIL_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:111 Clear data from locator : O_ENTER_EMAIL_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_ENTER_EMAIL_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_ENTER_EMAIL_XPATH Value : akash.samal@ril.com
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_ENTER_PASSWORD_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : Test@321
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_GET_OTP_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_GET_OTP_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:506 Current URL is : data:,

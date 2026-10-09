@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execution Results</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Loading overlay style */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            color: #0c22b1;
+            font-weight: bold;
+            z-index: 9999;
+            display: none; /* Initially hidden */
+        }
+
+        .container {
+            background-color: #e1e9f5;
+            padding: 20px 40px;
+            border-radius: 12px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            width: 100%;
+            max-width: 840px;
+            text-align: center;
+            height: auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #062d66;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .message {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        .success {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .error {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            width: 70%;
+            margin-top: 30px;
+            margin-left:90px;
+        }
+
+        .button-group button,
+        .button-group a {
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        #download {
+            background-color: #2763af;
+            color: white;
+            border: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        #download:hover {
+            background-color: #375c8b;
+            transform: translateY(-3px);
+        }
+
+        #generate {
+            background-color: #2763af;
+            color: white;
+            border: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        #generate:hover {
+            background-color: #375c8b;
+            transform: translateY(-3px);
+        }
+
+        .button-group a {
+            background-color: #43484f;
+            color: white;
+            text-decoration: none;
+        }
+
+        .button-group a:hover {
+            background-color: #636568;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay_DownloadReport">Downloading CSV report please wait...</div>
+    <div class="loading-overlay" id="loadingOverlay_GenerateReport">Generating report please wait...</div>
+
+    <div class="container">
+        <h2>Automation Test Execution Result: Jio Signage</h2>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="message {{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <div class="button-group">
+            <a href="/"><i class="fa-solid fa-backward"></i>&nbspGo Back</a>
+<!--            <form action="/download_allure_report" method="POST" id="downloadForm">-->
+<!--                <button type="submit" id="download"><i class="fa-solid fa-download"></i>&nbspDownload CSV Report</button>-->
+<!--            </form>-->
+           <form action="/latest_report_view" method="POST" id="generateForm" target="_blank">
+    <button type="submit" id="generate"><i class="fa-solid fa-eye"></i> &nbsp;View Report</button>
+</form>
+
+        </div>
+    </div>
+
+    <script>
+<!--        // Show loading overlay on button click-->
+<!--        function showLoadingOverlay_download() {-->
+<!--            const loadingOverlay = document.getElementById('loadingOverlay_DownloadReport');-->
+<!--            loadingOverlay.style.display = 'flex';  // Show overlay-->
+<!--        }-->
+
+<!--         function showLoadingOverlay_generate(event) {-->
+<!--        event.preventDefault(); // Prevent form submission-->
+<!--        const loadingOverlay = document.getElementById('loadingOverlay_GenerateReport');-->
+<!--        loadingOverlay.style.display = 'flex';  // Show overlay-->
+
+<!--        // Simulate form submission after a short delay (e.g., to give the overlay time to show)-->
+<!--        setTimeout(() => {-->
+<!--            document.getElementById('generateForm').submit();  // Submit the form after showing the overlay-->
+<!--        }, 500); // 500ms delay for better visual effect-->
+<!--    }-->
+
+    // Attach event listeners to buttons
+    const generateForm = document.getElementById('generateForm');
+
+    generateForm.addEventListener('submit', function(event) {
+        showLoadingOverlay_generate(event);
+    });
+
+        // Hide the loading overlay after action is completed
+        function hideLoadingOverlay() {
+            const loadingOverlay = document.getElementById('loadingOverlay');
+            loadingOverlay.style.display = 'none';  // Hide overlay
+        }
+
+        // Attach event listeners to buttons
+<!--        const downloadForm = document.getElementById('downloadForm');-->
+<!--        const generateForm = document.getElementById('generateForm');-->
+
+<!--        downloadForm.addEventListener('submit', function(event) {-->
+<!--            showLoadingOverlay_download();-->
+<!--        });-->
+
+
+        // Hide the overlay after the page load
+        window.onload = function() {
+            hideLoadingOverlay();
+        };
+    </script>
+</body>
+
+</html>

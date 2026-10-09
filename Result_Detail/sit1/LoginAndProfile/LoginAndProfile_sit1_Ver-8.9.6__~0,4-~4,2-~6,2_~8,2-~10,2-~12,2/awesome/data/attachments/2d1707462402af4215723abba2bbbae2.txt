@@ -1,0 +1,9 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:269 TC['Verify user able to select the remember me option in JioSignage page.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_ENTER_EMAIL_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_ENTER_EMAIL_XPATH Value : wlQdfu@gmail.com
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_ENTER_PASSWORD_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : toaejIxq
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_REMEMBER_ME_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_REMEMBER_ME_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_GET_OTP_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_GET_OTP_XPATH

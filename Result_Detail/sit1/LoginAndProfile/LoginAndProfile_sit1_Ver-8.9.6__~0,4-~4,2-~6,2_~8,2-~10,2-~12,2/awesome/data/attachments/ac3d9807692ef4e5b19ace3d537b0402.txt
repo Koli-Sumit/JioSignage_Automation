@@ -1,0 +1,11 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:477 TC['verify user able to close the new phone number OSD by clicking "X"']
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PROFILE_ICON_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_PROFILE_ICON_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:482 ELEMENT NOT FOUND WITHIN GIVEN TIME OR NOT CLICKABLE!
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_VIEW_PROFILE_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PHONE_NUM_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:212 Clicking on Element O_PHONE_NUM_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_PHONE_NUM_X_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_PHONE_NUM_X_BTN_XPATH
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_EDITNAME_POPUP_HEADING_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:279 O_EDITNAME_POPUP_HEADING_XPATH is Displayed : False

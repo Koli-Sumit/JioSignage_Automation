@@ -1,0 +1,4 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:51 TC['Check that user is able to open Sign In Page']
+[32mINFO    [0m Pages.BasePage:BasePage.py:506 Current URL is : https://sit1.jiosignage.jio.com/users/sign_in
+[32mINFO    [0m Pages.BasePage:BasePage.py:392 Element O_SIGNAGELOGO_SIGNINPAGE_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:279 O_SIGNAGELOGO_SIGNINPAGE_XPATH is Displayed : True

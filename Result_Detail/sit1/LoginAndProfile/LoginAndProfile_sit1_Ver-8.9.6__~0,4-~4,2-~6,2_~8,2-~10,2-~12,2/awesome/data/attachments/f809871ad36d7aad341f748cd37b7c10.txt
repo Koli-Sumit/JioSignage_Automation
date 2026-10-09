@@ -1,0 +1,5 @@
+[32mINFO    [0m TestCases.test_LoginAndProfile:test_LoginAndProfile.py:227 TC['Verify user is able to click password show icon in JioSignage login page.']
+[32mINFO    [0m Pages.BasePage:BasePage.py:450 Element O_ENTER_PASSWORD_XPATH is visible
+[32mINFO    [0m Pages.BasePage:BasePage.py:92 Typed in to an Element : O_ENTER_PASSWORD_XPATH Value : AFZ3RSXA
+[32mINFO    [0m Pages.BasePage:BasePage.py:480 Element O_SHOW_PASSWORD_BTN_XPATH is clickable
+[32mINFO    [0m Pages.BasePage:BasePage.py:247 Clicked on Element O_SHOW_PASSWORD_BTN_XPATH

@@ -1,0 +1,1 @@
+{"tags":["@pytest.mark.usefixtures('setup', 'log_on_failure')","DEMO","flaky(reruns=1)","FOCUSED","SANITY","SMOKE"],"categories":["Test errors"]}
